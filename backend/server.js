@@ -5,7 +5,7 @@ const bookingRouter = require("./routes/booking");
 
 const app = express();
 
-const allowedOrigins = (process.env.CORS_ORIGIN || "http://localhost:3000")
+const allowedOrigins = (process.env.CORS_ORIGIN || "https://sc-cool.vercel.app/")
   .split(",")
   .map((o) => o.trim());
 
