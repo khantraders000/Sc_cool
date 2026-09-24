@@ -1,11 +1,11 @@
 import Head from "next/head";
 
 export default function SEO({
-  title = "Sc Cool AC Services | AC Repair, Installation & AMC in Prayagraj",
-  description = "Mumbai’s most trusted AC repair, installation, gas refill and AMC service. Certified technicians, genuine parts, 90-day warranty. Book a free inspection today.",
+  title = "Sc Cool AC Services | Mumbra , Maharastra",
+  description = "Mumbra,Mumbai’s,Thane most trusted AC repair, installation, gas refill and AMC service. Certified technicians, genuine parts, 90-day warranty. Book a free inspection today.",
   path = "/",
 }) {
-  const url = `https://www.Sc Cool.in${path}`;
+  const url = `https://www.sccool.in${path}`;
   return (
     <Head>
       <title>{title}</title>
@@ -20,7 +20,7 @@ export default function SEO({
       <meta property="og:url" content={url} />
       <meta property="og:locale" content="en_IN" />
       <meta property="og:site_name" content="Sc Cool AC Services" />
-      <meta property="og:image" content="https://www.Sc Cool.in/og-cover.jpg" />
+      <meta property="og:image" content="https://www.sccool.in/og-cover.jpg" />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
@@ -33,16 +33,33 @@ export default function SEO({
             "@context": "https://schema.org",
             "@type": "HVACBusiness",
             name: "Sc Cool AC Services",
-            image: "https://www.Sc Cool.in/og-cover.jpg",
-            telephone: "+91-98765-43210",
+            image: "https://www.sccool.in/og-cover.jpg",
+            telephone: "+91 97939-97768",
             priceRange: "₹₹",
             address: {
               "@type": "PostalAddress",
-              addressLocality: "Mumbai",
+              addressLocality: "Mumbra,Mumbai",
               addressRegion: "Maharashtra",
               addressCountry: "IN",
             },
-            areaServed: "Mumbai, Maharashtra",
+            areaServed: [
+              { "@type": "City", name: "Khar road" },
+              { "@type": "Place", name: "Bandra" },
+              { "@type": "Place", name: "Andheri" },
+              { "@type": "Place", name: "Juhu" },
+              { "@type": "Place", name: "Dadar" },
+              { "@type": "Place", name: "Worli" },
+              { "@type": "Place", name: "Thane" },
+              { "@type": "Place", name: "Church gate" },
+              { "@type": "Place", name: "Panvel" },
+              { "@type": "Place", name: "Colaba" },
+              { "@type": "Place", name: "Marine line" },
+              { "@type": "Place", name: "Charni road" },
+              { "@type": "Place", name: "Lower parel" },
+              { "@type": "Place", name: "Jogeshwari" },
+              { "@type": "Place", name: "Versova" },
+              { "@type": "Place", name: "Band stund" },
+            ],
             openingHours: "Mo-Su 07:00-22:00",
             aggregateRating: {
               "@type": "AggregateRating",

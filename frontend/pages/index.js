@@ -8,6 +8,7 @@ import WhyUs from '../components/WhyUs';
 import Testimonials from '../components/Testimonials';
 import BookingForm from '../components/BookingForm';
 import FAQ from '../components/FAQ';
+import FaqSchema from 'components/FaqSchema';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         description="Mumbai’s most trusted AC repair, installation, gas refill and AMC service. Certified technicians, genuine parts, 90-day warranty. Book a free inspection today."
         path="/"
       />
+      <FaqSchema />
       <Hero />
       <ServiceAreaMarquee />
       <Services />

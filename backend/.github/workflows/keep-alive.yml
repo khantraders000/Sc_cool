@@ -1,0 +1,17 @@
+name: Render Backend Keep Alive
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+
+  workflow_dispatch:
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ping Render Backend
+        run: |
+          curl -f -sS https://sc-cool.onrender.com/health
+          echo "Backend ping successful"

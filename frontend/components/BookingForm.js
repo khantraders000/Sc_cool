@@ -288,10 +288,6 @@ const resetForm = () => {
           )}
         </div>
 
-        <p className="text-xs text-inkdim/70 mt-4 text-center max-w-xl mx-auto leading-relaxed">
-          When you submit, the Express backend (see <code>/backend</code>) generates a live Google Maps link from your location and
-          sends it by email to the office and by SMS to the assigned technician, so your job can be tracked in real time.
-        </p>
       </div>
     </section>
   );

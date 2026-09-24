@@ -16,7 +16,13 @@ app.use(
 );
 app.use(express.json());
 
-app.get("/health", (req, res) => res.json({ ok: true }));
+app.get("/health", (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "Backend is awake",
+    timestamp: new Date().toISOString(),
+  });
+});
 
 app.use("/api", bookingRouter);
 
