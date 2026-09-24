@@ -9,6 +9,7 @@ import Testimonials from '../components/Testimonials';
 import BookingForm from '../components/BookingForm';
 import FAQ from '../components/FAQ';
 import FaqSchema from 'components/FaqSchema';
+import ServiceAreas from 'components/ServiceAreas';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <WhyUs />
       <Testimonials />
       <BookingForm />
+      <ServiceAreas/>
       <FAQ />
     </Layout>
   );

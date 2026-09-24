@@ -1,8 +1,8 @@
 import Head from "next/head";
 
 export default function SEO({
-  title = "Sc Cool AC Services | Mumbra , Maharastra",
-  description = "Mumbra,Mumbai’s,Thane most trusted AC repair, installation, gas refill and AMC service. Certified technicians, genuine parts, 90-day warranty. Book a free inspection today.",
+  title = "SC Cool Service | AC Repair & Installation in Mumbai",
+  description = "SC Cool provides professional AC repair, installation, gas refill, deep cleaning and AMC services across Mumbai, Thane, Navi Mumbai, Panvel and nearby areas.",
   path = "/",
 }) {
   const url = `https://www.sccool.in${path}`;
