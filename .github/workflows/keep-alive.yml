@@ -2,8 +2,7 @@ name: Render Backend Keep Alive
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
-
+    - cron: "7,17,27,37,47,57 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,5 +12,8 @@ jobs:
     steps:
       - name: Ping Render Backend
         run: |
-          curl -f -sS https://sc-cool.onrender.com/health
+          echo "Pinging Render backend..."
+          curl --fail --show-error --silent --max-time 60 \
+            https://sc-cool.onrender.com/health
+          echo ""
           echo "Backend ping successful"
