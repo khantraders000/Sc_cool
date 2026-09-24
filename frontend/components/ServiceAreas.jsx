@@ -248,8 +248,6 @@ export default function ServiceAreas() {
           >
             AC Services Across
           </h2>
-
-          {/* FIXED HEIGHT = NO LAYOUT SHIFT */}
           <div
             className="
               mt-3

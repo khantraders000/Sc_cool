@@ -17,6 +17,8 @@ app.use(
 app.use(express.json());
 
 app.get("/health", (req, res) => {
+  console.log("🔥 HEALTH CHECK HIT:", new Date().toISOString());
+
   res.status(200).json({
     success: true,
     message: "Backend is awake",
