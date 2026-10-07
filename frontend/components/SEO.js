@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function SEO({
   title = "SC Cool Service | AC Repair & Installation in Mumbai",
-  description = "SC Cool provides professional AC repair, installation, gas refill, deep cleaning and AMC services across Mumbai, Thane, Navi Mumbai, Panvel and nearby areas.",
+  description = "SC Cool provides professional AC repair, installation, gas refill, deep cleaning and AMC services across Mumbai, Thane, Navi Mumbai, Panvel and nearby areas...",
   path = "/",
 }) {
   const url = `https://www.sccool.in${path}`;
