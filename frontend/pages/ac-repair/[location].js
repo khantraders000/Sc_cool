@@ -168,50 +168,44 @@ export default function LocationPage({ location }) {
      LENIS + GSAP
   ======================================================= */
 
-useEffect(() => {
-  let lenis;
-  let ctx;
-  let rafId;
-  let cancelled = false;
-
-  async function initAnimations() {
-    // Browser mein hi GSAP load hoga
-    const { default: gsap } = await import("gsap");
-    const { ScrollTrigger } = await import("gsap/ScrollTrigger");
-
-    if (cancelled) return;
-
+  useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    lenis = new Lenis({
+    const lenis = new Lenis({
       duration: 1.15,
       smoothWheel: true,
     });
 
-    function raf(time) {
-      if (cancelled) return;
+    let rafId;
 
+    const raf = (time) => {
       lenis.raf(time);
+
       ScrollTrigger.update();
 
       rafId = requestAnimationFrame(raf);
-    }
+    };
 
     rafId = requestAnimationFrame(raf);
 
-    ctx = gsap.context(() => {
+    const ctx = gsap.context(() => {
       gsap.utils.toArray(".reveal-line").forEach((el) => {
         gsap.fromTo(
           el,
+
           {
             y: 42,
             opacity: 0,
           },
+
           {
             y: 0,
             opacity: 1,
+
             duration: 0.85,
+
             ease: "power3.out",
+
             scrollTrigger: {
               trigger: el,
               start: "top 88%",
@@ -223,29 +217,24 @@ useEffect(() => {
       gsap.to(".hero-orb", {
         y: -35,
         x: 20,
+
         duration: 5,
+
         repeat: -1,
         yoyo: true,
+
         ease: "sine.inOut",
       });
     }, root);
-  }
 
-  initAnimations().catch((error) => {
-    console.error("Animation initialization failed:", error);
-  });
-
-  return () => {
-    cancelled = true;
-
-    if (rafId) {
+    return () => {
       cancelAnimationFrame(rafId);
-    }
 
-    ctx?.revert();
-    lenis?.destroy();
-  };
-}, []);
+      lenis.destroy();
+
+      ctx.revert();
+    };
+  }, []);
 
   return (
     <>
