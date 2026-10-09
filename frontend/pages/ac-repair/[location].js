@@ -2,14 +2,14 @@ import { useEffect, useRef } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import gsap from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 
 import Nav from "components/Nav";
 import Footer from "../../components/Footer";
 import { locations } from "../../data/locations";
-import
+import { locationContent } from "data/locationContent";
 
 const PHONE = "+919793997768";
 const DISPLAY_PHONE = "+91 97939 97768";
@@ -170,7 +170,9 @@ export default function LocationPage({ location }) {
      LENIS + GSAP
   ======================================================= */
 
-  useEffect(() => {
+  useEffect(async() => {
+     const { default: gsap } = await import("gsap");
+    const { ScrollTrigger } = await import("gsap/ScrollTrigger");
     gsap.registerPlugin(ScrollTrigger);
 
     const lenis = new Lenis({
