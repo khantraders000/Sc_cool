@@ -2,12 +2,14 @@ import { useEffect, useRef } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 
 import Nav from "components/Nav";
 import Footer from "../../components/Footer";
 import { locations } from "../../data/locations";
-import { locationContent } from "data/locationContent";
+import
 
 const PHONE = "+919793997768";
 const DISPLAY_PHONE = "+91 97939 97768";
@@ -168,55 +170,44 @@ export default function LocationPage({ location }) {
      LENIS + GSAP
   ======================================================= */
 
-
-useEffect(() => {
-  let lenis;
-  let ctx;
-  let rafId;
-  let cancelled = false;
-
-  const initAnimations = async () => {
-    // Load GSAP only on the client
-    const { default: gsap } = await import("gsap");
-    const { ScrollTrigger } = await import("gsap/ScrollTrigger");
-
-    // Component unmount hone par initialization rok do
-    if (cancelled) return;
-
+  useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    // Initialize Lenis smooth scrolling
-    lenis = new Lenis({
+    const lenis = new Lenis({
       duration: 1.15,
       smoothWheel: true,
     });
 
-    // Sync Lenis with ScrollTrigger
-    lenis.on("scroll", ScrollTrigger.update);
+    let rafId;
 
     const raf = (time) => {
-      if (cancelled) return;
+      lenis.raf(time);
 
-      lenis?.raf(time);
+      ScrollTrigger.update();
+
       rafId = requestAnimationFrame(raf);
     };
 
     rafId = requestAnimationFrame(raf);
 
-    // GSAP animations
-    ctx = gsap.context(() => {
+    const ctx = gsap.context(() => {
       gsap.utils.toArray(".reveal-line").forEach((el) => {
         gsap.fromTo(
           el,
+
           {
             y: 42,
             opacity: 0,
           },
+
           {
             y: 0,
             opacity: 1,
+
             duration: 0.85,
+
             ease: "power3.out",
+
             scrollTrigger: {
               trigger: el,
               start: "top 88%",
@@ -228,29 +219,24 @@ useEffect(() => {
       gsap.to(".hero-orb", {
         y: -35,
         x: 20,
+
         duration: 5,
+
         repeat: -1,
         yoyo: true,
+
         ease: "sine.inOut",
       });
     }, root);
-  };
 
-  initAnimations().catch((error) => {
-    console.error("Animation initialization failed:", error);
-  });
-
-  return () => {
-    cancelled = true;
-
-    if (rafId) {
+    return () => {
       cancelAnimationFrame(rafId);
-    }
 
-    ctx?.revert();
-    lenis?.destroy();
-  };
-}, []);
+      lenis.destroy();
+
+      ctx.revert();
+    };
+  }, []);
 
   return (
     <>
