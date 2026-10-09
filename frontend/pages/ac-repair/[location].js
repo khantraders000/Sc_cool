@@ -9,6 +9,7 @@ import Lenis from "lenis";
 import Nav from "components/Nav";
 import Footer from "../../components/Footer";
 import { locations } from "../../data/locations";
+import { locationContent } from "data/locationContent";
 
 const PHONE = "+919793997768";
 const DISPLAY_PHONE = "+91 97939 97768";
@@ -119,14 +120,23 @@ export async function getStaticProps({ params }) {
 export default function LocationPage({ location }) {
   const root = useRef(null);
 
-  const canonicalUrl =
-    `https://sccool.in/ac-repair/${location.slug}`;
+  // const canonicalUrl =
+  //   `https://sccool.in/ac-repair/${location.slug}`;
+  const canonicalUrl = `https://sccool.in/ac-repair/${location.slug}`;
+
+  const localContent = locationContent[location.slug] || {
+    title: `AC Repair & Service in ${location.name}`,
+    description: `Contact SC Cool Service for AC repair, installation, cleaning and maintenance in ${location.name}.`,
+    intro: `Need AC repair or maintenance in ${location.name}? Contact SC Cool Service to discuss your AC issue and arrange service.`,
+    focus:
+      "AC repair, installation, cleaning and routine maintenance for home and business requirements.",
+    faqs: [],
+  };
 
   const title =
-    `AC Repair & Service in ${location.name}, Mumbai | SC Cool Service`;
+   `${localContent.title} | SC Cool Service`;
 
-  const description =
-    `Professional AC repair, installation, gas service, cleaning and maintenance in ${location.name}, Mumbai. Contact SC Cool Service to book an AC technician.`;
+  const description = localContent.description;
 
   /* =======================================================
      STRUCTURED DATA
@@ -463,31 +473,12 @@ export default function LocationPage({ location }) {
                 {/* Description */}
 
                 <motion.p
-                  initial={{
-                    opacity: 0,
-                    y: 20,
-                  }}
-                  animate={{
-                    opacity: 1,
-                    y: 0,
-                  }}
-                  transition={{
-                    delay: 0.16,
-                    duration: 0.7,
-                  }}
-                  className="
-                    mt-7
-                    max-w-2xl
-                    text-base
-                    leading-7
-                    text-slate-300
-                    sm:text-lg
-                  "
-                >
-                  Professional AC repair, installation, gas
-                  service, deep cleaning and maintenance support
-                  for homes, offices and shops around{" "}
-                  {location.name}.
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.16, duration: 0.7 }}
+  className="mt-7 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg"
+>
+  {localContent.intro}
                 </motion.p>
 
                 {/* Buttons */}
@@ -983,18 +974,11 @@ export default function LocationPage({ location }) {
 
         <section className="relative overflow-hidden bg-white px-5 py-24 sm:px-8 lg:px-10 lg:py-32">
 
-          <div
-            className="
-              absolute
-              right-0
-              top-0
-              h-96
-              w-96
-              rounded-full
-              bg-cyan-100/50
-              blur-3xl
-            "
-          />
+        <div className="space-y-6 text-base leading-8 text-slate-600 sm:text-lg">
+          <p className="reveal-line">{localContent.intro}</p>
+
+          <p className="reveal-line">{localContent.focus}</p>
+        </div>
 
           <div className="relative mx-auto grid max-w-7xl gap-14 lg:grid-cols-[.78fr_1.22fr]">
 
@@ -1096,6 +1080,37 @@ export default function LocationPage({ location }) {
           </div>
 
         </section>
+        {/* {Array.isArray(localContent.faqs) &&
+        localContent.faqs.length > 0 && (
+          <section className="bg-[#f5f9ff] px-5 py-20 sm:px-8 lg:px-10 lg:py-24">
+            <div className="mx-auto max-w-4xl">
+              <span className="text-xs font-bold uppercase tracking-[.2em] text-sky-600">
+                Local service questions
+              </span>
+
+              <h2 className="mt-4 text-3xl font-semibold tracking-[-.04em] sm:text-4xl">
+                AC service FAQs in {location.name}
+              </h2>
+
+              <div className="mt-8 space-y-4">
+                {localContent.faqs.map((faq, index) => (
+                  <article
+                    key={`${faq.question || "faq"}-${index}`}
+                    className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6"
+                  >
+                    <h3 className="font-semibold text-slate-950">
+                      {faq.question}
+                    </h3>
+
+                    <p className="mt-2 leading-7 text-slate-600">
+                      {faq.answer}
+                    </p>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </section>
+        )} */}
 
         {/* =================================================
             WHY SC COOL

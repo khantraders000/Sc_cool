@@ -1,35 +1,53 @@
-import { locations } from "data/locations";
+
+import { locations } from "../data/locations";
+
+const BASE_URL = "https://sccool.in";
 
 export async function getServerSideProps({ res }) {
-  const baseUrl = "https://www.sccool.in";
-
   const staticPages = [
     {
-      url: `${baseUrl}/`,
+      url: `${BASE_URL}/`,
       changefreq: "weekly",
       priority: "1.0",
     },
     {
-      url: `${baseUrl}/about`,
+      url: `${BASE_URL}/about`,
       changefreq: "monthly",
       priority: "0.7",
     },
   ];
 
-  const locationPages = locations.map((location) => ({
-    url: `${baseUrl}/ac-repair/${location.slug}`,
+  // Automatically include every location in data/locations.js
+  const locationPages = locations.map(({ slug }) => ({
+    url: `${BASE_URL}/ac-repair/${slug}`,
     changefreq: "monthly",
     priority: "0.8",
   }));
 
-  const allPages = [...staticPages, ...locationPages];
+  // Remove duplicate URLs
+  const uniquePages = [
+    ...new Map(
+      [...staticPages, ...locationPages].map((page) => [
+        page.url,
+        page,
+      ])
+    ).values(),
+  ];
+
+  const escapeXml = (value) =>
+    String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&apos;");
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${allPages
+${uniquePages
   .map(
     (page) => `  <url>
-    <loc>${page.url}</loc>
+    <loc>${escapeXml(page.url)}</loc>
     <changefreq>${page.changefreq}</changefreq>
     <priority>${page.priority}</priority>
   </url>`
@@ -37,9 +55,11 @@ ${allPages
   .join("\n")}
 </urlset>`;
 
-  res.setHeader("Content-Type", "application/xml");
-  res.write(xml);
-  res.end();
+  res.setHeader("Content-Type", "application/xml; charset=utf-8");
+  res.setHeader("Cache-Control", "public, s-maxage=3600, stale-while-revalidate=86400");
+
+  res.statusCode = 200;
+  res.end(xml);
 
   return {
     props: {},
