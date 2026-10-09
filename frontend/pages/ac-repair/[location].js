@@ -2,8 +2,6 @@ import { useEffect, useRef } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 
 import Nav from "components/Nav";
@@ -170,44 +168,50 @@ export default function LocationPage({ location }) {
      LENIS + GSAP
   ======================================================= */
 
-  useEffect(() => {
+useEffect(() => {
+  let lenis;
+  let ctx;
+  let rafId;
+  let cancelled = false;
+
+  async function initAnimations() {
+    // Browser mein hi GSAP load hoga
+    const { default: gsap } = await import("gsap");
+    const { ScrollTrigger } = await import("gsap/ScrollTrigger");
+
+    if (cancelled) return;
+
     gsap.registerPlugin(ScrollTrigger);
 
-    const lenis = new Lenis({
+    lenis = new Lenis({
       duration: 1.15,
       smoothWheel: true,
     });
 
-    let rafId;
+    function raf(time) {
+      if (cancelled) return;
 
-    const raf = (time) => {
       lenis.raf(time);
-
       ScrollTrigger.update();
 
       rafId = requestAnimationFrame(raf);
-    };
+    }
 
     rafId = requestAnimationFrame(raf);
 
-    const ctx = gsap.context(() => {
+    ctx = gsap.context(() => {
       gsap.utils.toArray(".reveal-line").forEach((el) => {
         gsap.fromTo(
           el,
-
           {
             y: 42,
             opacity: 0,
           },
-
           {
             y: 0,
             opacity: 1,
-
             duration: 0.85,
-
             ease: "power3.out",
-
             scrollTrigger: {
               trigger: el,
               start: "top 88%",
@@ -219,24 +223,29 @@ export default function LocationPage({ location }) {
       gsap.to(".hero-orb", {
         y: -35,
         x: 20,
-
         duration: 5,
-
         repeat: -1,
         yoyo: true,
-
         ease: "sine.inOut",
       });
     }, root);
+  }
 
-    return () => {
+  initAnimations().catch((error) => {
+    console.error("Animation initialization failed:", error);
+  });
+
+  return () => {
+    cancelled = true;
+
+    if (rafId) {
       cancelAnimationFrame(rafId);
+    }
 
-      lenis.destroy();
-
-      ctx.revert();
-    };
-  }, []);
+    ctx?.revert();
+    lenis?.destroy();
+  };
+}, []);
 
   return (
     <>
