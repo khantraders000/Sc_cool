@@ -2,8 +2,8 @@ import { useEffect, useRef } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { motion } from "framer-motion";
-// import gsap from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 
 import Nav from "components/Nav";
@@ -170,9 +170,7 @@ export default function LocationPage({ location }) {
      LENIS + GSAP
   ======================================================= */
 
-  useEffect(async() => {
-     const { default: gsap } = await import("gsap");
-    const { ScrollTrigger } = await import("gsap/ScrollTrigger");
+  useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
     const lenis = new Lenis({
