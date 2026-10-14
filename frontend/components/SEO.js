@@ -5,7 +5,9 @@ export default function SEO({
   description = "SC Cool provides professional AC repair, installation, gas refill, deep cleaning and AMC services across Mumbai, Thane, Navi Mumbai, Panvel and nearby areas...",
   path = "/",
 }) {
-  const url = `https://www.sccool.in${path}`;
+  const SITE_URL = "https://sccool.in";
+  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+  const url = `${SITE_URL}${normalizedPath}`;
   return (
     <Head>
       <title>{title}</title>

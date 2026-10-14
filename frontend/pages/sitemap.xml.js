@@ -17,7 +17,6 @@ export async function getServerSideProps({ res }) {
     },
   ];
 
-  // Automatically include every location in data/locations.js
   const locationPages = locations.map(({ slug }) => ({
     url: `${BASE_URL}/ac-repair/${slug}`,
     changefreq: "monthly",
@@ -55,15 +54,20 @@ ${uniquePages
   .join("\n")}
 </urlset>`;
 
-  res.setHeader("Content-Type", "application/xml; charset=utf-8");
-  res.setHeader("Cache-Control", "public, s-maxage=3600, stale-while-revalidate=86400");
+  res.setHeader(
+    "Content-Type",
+    "application/xml; charset=utf-8"
+  );
+
+  res.setHeader(
+    "Cache-Control",
+    "public, s-maxage=3600, stale-while-revalidate=86400"
+  );
 
   res.statusCode = 200;
   res.end(xml);
 
-  return {
-    props: {},
-  };
+  return { props: {} };
 }
 
 export default function Sitemap() {
