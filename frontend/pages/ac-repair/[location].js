@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Lenis from "lenis";
+import SEO from "components/SEO";
 
 import Nav from "components/Nav";
 import Footer from "../../components/Footer";
