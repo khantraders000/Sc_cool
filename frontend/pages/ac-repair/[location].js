@@ -90,6 +90,63 @@ export async function getStaticPaths() {
   };
 }
 
+
+function LocalServiceFAQ({ locationName, locationSlug }) {
+  const locationData = locationContent?.[locationSlug];
+
+  const faqs = (locationData?.faqs || [])
+    .map((faq) => ({
+      question: faq.question || faq.q,
+      answer: faq.answer || faq.a,
+    }))
+    .filter((faq) => faq.question && faq.answer);
+
+  if (!faqs.length) return null;
+
+  return (
+    <section className="service-reveal bg-[#fff5e8] px-5 py-20 sm:px-8 lg:py-24">
+      <div className="mx-auto max-w-4xl">
+        <div className="mb-10">
+          <span className="text-xs font-extrabold uppercase tracking-[0.22em] text-orange-900">
+            Local service guide
+          </span>
+
+          <h2 className="mt-4 text-3xl font-bold tracking-tight text-[#30251c] sm:text-4xl">
+            AC service FAQs for {locationName}
+          </h2>
+
+          <p className="mt-4 max-w-2xl leading-7 text-[#634b37]">
+            Find out what details to share, how to enquire and what to confirm
+            before arranging a local AC service visit.
+          </p>
+        </div>
+
+        <div className="space-y-3">
+          {faqs.map((faq, index) => (
+            <details
+              key={`${locationSlug}-${index}`}
+              className="group rounded-2xl border border-orange-950/10 bg-white p-5 shadow-sm transition hover:border-orange-300 open:border-orange-300 open:shadow-md sm:p-6"
+            >
+              <summary className="flex cursor-pointer list-none items-start justify-between gap-4 font-bold text-[#30251c] marker:hidden">
+                <span>{faq.question}</span>
+
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-orange-100 text-lg text-orange-900 transition group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+
+              <p className="mt-4 text-sm leading-7 text-[#634b37] sm:text-base">
+                {faq.answer}
+              </p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
 /* =========================================================
    STATIC PROPS
 ========================================================= */
@@ -1253,6 +1310,10 @@ export default function LocationPage({ location }) {
           </div>
 
         </section>
+        <LocalServiceFAQ
+          locationName={location.name}
+          locationSlug={location.slug}
+        />
 
         {/* =================================================
             BOOKING CTA
