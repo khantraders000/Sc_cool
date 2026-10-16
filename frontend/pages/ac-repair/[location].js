@@ -126,7 +126,7 @@ export default function LocationPage({ location }) {
 
   const localContent = locationContent[location.slug] || {
     title: `AC Repair & Service in ${location.name}`,
-    description: `Contact SC Cool Service for AC repair, installation, cleaning and maintenance in ${location.name}.`,
+    description: `Looking for AC repair in ${location.name}, Mumbai? Contact SC Cool Service for AC repair, installation, cleaning and maintenance. Call to enquire or book a visit.`,
     intro: `Need AC repair or maintenance in ${location.name}? Contact SC Cool Service to discuss your AC issue and arrange service.`,
     focus:
       "AC repair, installation, cleaning and routine maintenance for home and business requirements.",
@@ -244,72 +244,22 @@ export default function LocationPage({ location }) {
           SEO
       =================================================== */}
 
-      <Head>
-        <title>{title}</title>
 
-        <meta
-          name="description"
-          content={description}
-        />
+      <SEO
+        title={title}
+        description={description}
+        path={`/ac-repair/${location.slug}`}
+      />
 
-        <link
-          rel="canonical"
-          href={canonicalUrl}
-        />
+<Head>
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(jsonLd),
+    }}
+  />
+</Head>
 
-        {/* Open Graph */}
-
-        <meta
-          property="og:title"
-          content={title}
-        />
-
-        <meta
-          property="og:description"
-          content={description}
-        />
-
-        <meta
-          property="og:url"
-          content={canonicalUrl}
-        />
-
-        <meta
-          property="og:type"
-          content="website"
-        />
-
-        <meta
-          property="og:site_name"
-          content="SC Cool Service"
-        />
-
-        {/* Twitter */}
-
-        <meta
-          name="twitter:card"
-          content="summary_large_image"
-        />
-
-        <meta
-          name="twitter:title"
-          content={title}
-        />
-
-        <meta
-          name="twitter:description"
-          content={description}
-        />
-
-        {/* JSON-LD */}
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(jsonLd),
-          }}
-        />
-      </Head>
 
       {/* ===================================================
           EXISTING NAVBAR
@@ -441,33 +391,12 @@ export default function LocationPage({ location }) {
                   initial="hidden"
                   animate="show"
                   variants={fadeUp}
-                  className="
-                    max-w-5xl
-                    text-5xl
-                    font-semibold
-                    leading-[.94]
-                    tracking-[-.055em]
-                    sm:text-6xl
-                    lg:text-[82px]
-                  "
+                  className="max-w-5xl text-5xl font-semibold leading-[.94] tracking-[-.055em] sm:text-6xl lg:text-[82px]"
                 >
-
-                  AC repair that
-
-                  <span
-                    className="
-                      block
-                      bg-gradient-to-r
-                      from-white
-                      via-cyan-100
-                      to-sky-400
-                      bg-clip-text
-                      text-transparent
-                    "
-                  >
-                    keeps {location.name} cool.
+                  AC Repair & Service in
+                  <span className="block bg-gradient-to-r from-white via-cyan-100 to-sky-400 bg-clip-text text-transparent">
+                    {location.name}, Mumbai
                   </span>
-
                 </motion.h1>
 
                 {/* Description */}
