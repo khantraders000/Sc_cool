@@ -3,34 +3,27 @@ import { locations } from "../data/locations";
 
 const BASE_URL = "https://sccool.in";
 
+const SERVICE_TYPES = [
+  "ac-repair",
+  "ac-service",
+  "ac-installation",
+  "ac-maintenance",
+  "ac-service-near",
+];
+
 export async function getServerSideProps({ res }) {
   const staticPages = [
-    {
-      url: `${BASE_URL}/`,
-      changefreq: "weekly",
-      priority: "1.0",
-    },
-    {
-      url: `${BASE_URL}/about`,
-      changefreq: "monthly",
-      priority: "0.7",
-    },
+    `${BASE_URL}/`,
+    `${BASE_URL}/about`,
   ];
 
-  const locationPages = locations.map(({ slug }) => ({
-    url: `${BASE_URL}/ac-repair/${slug}`,
-    changefreq: "monthly",
-    priority: "0.8",
-  }));
+  const locationPages = locations.flatMap(({ slug }) =>
+    SERVICE_TYPES.map((service) => `${BASE_URL}/${service}/${slug}`)
+  );
 
   // Remove duplicate URLs
-  const uniquePages = [
-    ...new Map(
-      [...staticPages, ...locationPages].map((page) => [
-        page.url,
-        page,
-      ])
-    ).values(),
+  const uniqueUrls = [
+    ...new Set([...staticPages, ...locationPages]),
   ];
 
   const escapeXml = (value) =>
@@ -43,21 +36,16 @@ export async function getServerSideProps({ res }) {
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${uniquePages
+${uniqueUrls
   .map(
-    (page) => `  <url>
-    <loc>${escapeXml(page.url)}</loc>
-    <changefreq>${page.changefreq}</changefreq>
-    <priority>${page.priority}</priority>
+    (url) => `  <url>
+    <loc>${escapeXml(url)}</loc>
   </url>`
   )
   .join("\n")}
 </urlset>`;
 
-  res.setHeader(
-    "Content-Type",
-    "application/xml; charset=utf-8"
-  );
+  res.setHeader("Content-Type", "application/xml; charset=utf-8");
 
   res.setHeader(
     "Cache-Control",
