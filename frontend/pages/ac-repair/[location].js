@@ -393,7 +393,7 @@ export default function LocationPage({ location }) {
 
               {/* LEFT */}
 
-              <div>
+              <div className="mt-4">
 
                 {/* Badge */}
 
