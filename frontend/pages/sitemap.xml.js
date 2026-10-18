@@ -15,6 +15,7 @@ export async function getServerSideProps({ res }) {
   const staticPages = [
     `${BASE_URL}/`,
     `${BASE_URL}/about`,
+    `${BASE_URL}/service-areas`,
   ];
 
   const locationPages = locations.flatMap(({ slug }) =>
@@ -22,9 +23,7 @@ export async function getServerSideProps({ res }) {
   );
 
   // Remove duplicate URLs
-  const uniqueUrls = [
-    ...new Set([...staticPages, ...locationPages]),
-  ];
+  const uniqueUrls = [...new Set([...staticPages, ...locationPages])];
 
   const escapeXml = (value) =>
     String(value)
