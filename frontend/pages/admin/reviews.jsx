@@ -106,7 +106,15 @@ async function submit(e) {
     <section style={ui.panel}><h2 style={ui.h2}>{editing?'Edit review':'Add a customer review'}</h2><p style={ui.muted}>Enter genuine review details and paste the direct Google review URL.</p>
       <form onSubmit={submit} style={ui.form}>
         <label style={ui.label}>First name<input style={fieldStyle} required maxLength={60} value={form.firstName} onChange={e=>set('firstName',e.target.value)}/></label>
-        <label style={ui.label}>Last name<input style={fieldStyle}  maxLength={60} value={form.lastName} onChange={e=>set('lastName',e.target.value)}/></label>
+        <label style={ui.label}>
+          Last name
+          <input
+            style={fieldStyle}
+            maxLength={60}
+            value={form.lastName}
+            onChange={(e) => set("lastName", e.target.value)}
+          />
+        </label>
         <label style={ui.label}>Review date<input style={fieldStyle} type="date" required value={form.reviewDate} onChange={e=>set('reviewDate',e.target.value)}/></label>
         <label style={ui.label}>Star rating<select style={fieldStyle} value={form.rating} onChange={e=>set('rating',e.target.value)}>{[5,4,3,2,1].map(n=><option key={n} value={n}>{n} star{n>1?'s':''}</option>)}</select></label>
         <label style={{...ui.label,gridColumn:'1/-1'}}>Review text<textarea style={{...fieldStyle,minHeight:120,resize:'vertical'}} minLength={3} maxLength={3000} value={form.reviewText} onChange={e=>set('reviewText',e.target.value)}/><small style={ui.small}>{form.reviewText.length}/3000 characters</small></label>
