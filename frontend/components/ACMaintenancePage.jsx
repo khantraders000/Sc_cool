@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import useSmoothAnimations from "../hooks/useSmoothAnimations";
 import { getLocationServiceContent } from "../data/serviceLocationContent";
 import FloatingActions from "./FloatingActions";
+import GoogleReviewsCarousel from "./GoogleReviewsCarousel";
 const PHONE = "+919793997768";
 const WHATSAPP = "https://wa.me/919793997768";
 
@@ -716,6 +717,7 @@ export default function ACMaintenancePage({ location }) {
             </div>
           </div>
         </section>
+        <GoogleReviewsCarousel/>
       </main>
       <FloatingActions/>
 

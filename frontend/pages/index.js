@@ -10,6 +10,7 @@ import BookingForm from '../components/BookingForm';
 import FAQ from '../components/FAQ';
 import FaqSchema from 'components/FaqSchema';
 import ServiceAreas from 'components/ServiceAreas';
+import GoogleReviewsCarousel from 'components/GoogleReviewsCarousel';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Testimonials />
       <BookingForm />
       <ServiceAreas/>
+      <GoogleReviewsCarousel/>
       <FAQ />
     </Layout>
   );
