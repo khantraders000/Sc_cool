@@ -11,6 +11,7 @@ import Nav from "components/Nav";
 import Footer from "../../components/Footer";
 import { locations } from "../../data/locations";
 import { locationContent } from "data/locationContent";
+import GoogleReviewsCarousel from "components/GoogleReviewsCarousel";
 
 const PHONE = "+919793997768";
 const DISPLAY_PHONE = "+91 97939 97768";
@@ -1539,6 +1540,7 @@ export default function LocationPage({ location }) {
           </div>
 
         </section>
+        <GoogleReviewsCarousel/>
 
       </main>
 
