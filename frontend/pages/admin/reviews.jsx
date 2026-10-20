@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
-const API = (process.env.NEXT_PUBLIC_REVIEWS_API_URL || 'http://localhost:4000/api').replace(/\/$/, '');
+const API = (process.env.NEXT_PUBLIC_REVIEWS_API_URL || '/api').replace(/\/$/, '');
 const blank = { firstName:'', lastName:'', reviewDate:new Date().toISOString().slice(0,10), rating:5, reviewText:'', googleReviewUrl:'', published:true, featured:false, displayOrder:0 };
 const fieldStyle={width:'100%',boxSizing:'border-box',padding:'11px 12px',borderRadius:9,border:'1px solid #dedbd2',background:'#fff',fontSize:14};
 
