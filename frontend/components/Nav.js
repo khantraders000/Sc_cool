@@ -12,7 +12,7 @@ export default function Nav() {
   }, []);
 
   const links = [
-    { href: '/#services', label: 'Services' },
+    { href: '/service-areas', label: 'Services' },
     { href: '/#process', label: 'Process' },
     { href: '/#why-us', label: 'Why Us' },
     { href: '/#reviews', label: 'Reviews' },

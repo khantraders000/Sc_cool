@@ -21,7 +21,10 @@ export default function Layout({ children }) {
 
       if (!reduceMotion) {
         const Lenis = (await import('lenis')).default;
-        lenis = new Lenis({ duration: 1.05, smoothWheel: true });
+        lenis = new Lenis({ 
+          duration: 1.05, 
+          smoothWheel: true 
+        });
         const raf = (time) => {
           lenis.raf(time);
           rafId = requestAnimationFrame(raf);
