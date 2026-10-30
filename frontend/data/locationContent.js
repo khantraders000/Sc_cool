@@ -8,7 +8,7 @@ export const locationContent = {
     faqs: [
       {
         q: "Need ac service near me contact number in Colaba?",
-        a: "this is contact number of ac technician 7905487052.",
+        a: "this is contact number of ac technician +91 9793997768",
       },
       {
         q: "What details help with an AC repair enquiry in Colaba?",
@@ -1092,7 +1092,7 @@ export const locationContent = {
     faqs: [
       {
         q: "Need ac service near me contact number in Kalyan?",
-        a: "this is contact number of ac technician 7905487052.",
+        a: "this is contact number of ac technician +91 9793997768",
       },
       {
         q: "What information is needed for an AC installation enquiry in Kalyan?",
