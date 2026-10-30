@@ -7,6 +7,10 @@ export const locationContent = {
     focus: "Home or apartment; poor cooling, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
+        q: "Need ac service near me contact number in Colaba?",
+        a: "this is contact number of ac technician 7905487052.",
+      },
+      {
         q: "What details help with an AC repair enquiry in Colaba?",
         a: "Please share your full address, AC type and the main symptom. If you know when the problem started, include that too. SC Cool Service can review the details and confirm availability before arranging a visit.",
       },
@@ -1086,6 +1090,10 @@ export const locationContent = {
     intro: "Looking for help with an AC in Kalyan? SC Cool Service can discuss repair, cleaning, installation and maintenance enquiries. Tell us whether the unit serves property with a newly installed or relocated unit, and include whether the request is for a new installation, shifting or a check after installation. The actual service and visit timing depend on the problem, site requirements and confirmed availability.",
     focus: "Property with a newly installed or relocated unit; installation or setup concerns, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
+      {
+        q: "Need ac service near me contact number in Kalyan?",
+        a: "this is contact number of ac technician 7905487052.",
+      },
       {
         q: "What information is needed for an AC installation enquiry in Kalyan?",
         a: "Share the property address, AC model or capacity if known, and whether the job is a new installation or relocation. Site conditions and installation requirements need to be reviewed before scope and availability are confirmed.",
