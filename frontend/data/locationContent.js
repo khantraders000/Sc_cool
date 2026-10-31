@@ -1091,8 +1091,8 @@ export const locationContent = {
     focus: "Property with a newly installed or relocated unit; installation or setup concerns, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
-        q: "Need ac service near me contact number in Kalyan?",
-        a: "this is contact number of ac technician +91 9793997768",
+        q: "Need ac service , ac installation , ac mechanic & ac repair near me contact number in Kalyan?",
+        a: "this is contact number of Ac technician +91 9793997768 ",
       },
       {
         q: "What information is needed for an AC installation enquiry in Kalyan?",
