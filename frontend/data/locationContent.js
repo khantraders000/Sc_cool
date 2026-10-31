@@ -1135,6 +1135,10 @@ export const locationContent = {
     focus: "Residential or commercial premises; water leakage or drainage concerns, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
+        q: "Need ac service , ac installation , ac mechanic & ac repair near me contact number in Navi-Mumbai?",
+        a: "this is contact number of Ac technician +91 9793997768 ",
+      },
+      {
         q: "What details help with an AC repair enquiry in Navi Mumbai?",
         a: "Please share your full address, AC type and the main symptom. If you know when the problem started, include that too. SC Cool Service can review the details and confirm availability before arranging a visit.",
       },
@@ -1154,6 +1158,10 @@ export const locationContent = {
     intro: "AC problems can look similar even when the causes differ. If you are contacting SC Cool Service from Panvel, explain whether the unit is at property with one or more AC units and provide how many units need attention and whether the request is for a single repair or planned maintenance. This helps establish whether you need diagnosis, cleaning, installation advice or routine maintenance; coverage must be confirmed for the address.",
     focus: "Property with one or more ac units; seasonal maintenance, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
+      {
+        q: "Need ac service , ac installation , ac mechanic & ac repair near me contact number in Panvel?",
+        a: "this is contact number of Ac technician +91 9793997768 ",
+      },
       {
         q: "Can I ask about seasonal maintenance in Panvel?",
         a: "Yes, you can contact SC Cool Service to discuss seasonal maintenance in Panvel. Describe what you observe and when it happens; the actual cause needs to be assessed rather than guessed from the symptom alone.",
