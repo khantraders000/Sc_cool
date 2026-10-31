@@ -71,6 +71,10 @@ export const locationContent = {
     focus: "Residential property; unusual noise, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
+        q: "Need ac service , ac installation , ac mechanic & ac repair near Churchgate?",
+        a: "this is contact number of Ac technician +91 9793997768 ",
+      },
+      {
         q: "Do you cover every address in Churchgate?",
         a: "Coverage can depend on the exact address and current scheduling. Send SC Cool Service your locality or building address and the service required so availability can be confirmed before a visit is planned.",
       },
@@ -150,6 +154,10 @@ export const locationContent = {
     intro: "AC problems can look similar even when the causes differ. If you are contacting SC Cool Service from Charni Road, explain whether the unit is at home or workplace and provide the service address, recent symptoms and whether the unit has been cleaned recently. This helps establish whether you need diagnosis, cleaning, installation advice or routine maintenance; coverage must be confirmed for the address.",
     focus: "Home or workplace; dust build-up or reduced cooling, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
+      {
+        q: "Need ac service , ac installation , ac mechanic & ac repair near Charni-road?",
+        a: "this is contact number of Ac technician +91 9793997768 ",
+      },
       {
         q: "What details help with an AC repair enquiry in Charni Road?",
         a: "Please share your full address, AC type and the main symptom. If you know when the problem started, include that too. SC Cool Service can review the details and confirm availability before arranging a visit.",
@@ -491,6 +499,10 @@ export const locationContent = {
     focus: "Home or apartment; poor cooling, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
+        q: "Need ac service , ac installation , ac mechanic & ac repair near bandra?",
+        a: "this is contact number of Ac technician +91 9793997768 ",
+      },
+      {
         q: "Do you cover every address in Bandra?",
         a: "Coverage can depend on the exact address and current scheduling. Send SC Cool Service your locality or building address and the service required so availability can be confirmed before a visit is planned.",
       },
@@ -530,6 +542,10 @@ export const locationContent = {
     intro: "For an AC service request in Santacruz, a clear description is more useful than guessing at the fault. Tell us whether the unit serves shop or customer-facing space, then share the property address, the AC type and the hours when access is possible. SC Cool Service can review the requirement and check availability for your exact address.",
     focus: "Shop or customer-facing space; water dripping indoors, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
+      {
+        q: "Need ac service , ac installation , ac mechanic & ac repair near Santacruz?",
+        a: "this is contact number of Ac technician +91 9793997768 ",
+      },
       {
         q: "What information is needed for an AC installation enquiry in Santacruz?",
         a: "Share the property address, AC model or capacity if known, and whether the job is a new installation or relocation. Site conditions and installation requirements need to be reviewed before scope and availability are confirmed.",
@@ -891,6 +907,10 @@ export const locationContent = {
     focus: "Residential or commercial premises; water leakage or drainage concerns, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
+        q: "Need ac service , ac installation , ac mechanic & ac repair near Chembur?",
+        a: "this is contact number of Ac technician +91 9793997768 ",
+      },
+      {
         q: "What should I check before booking AC service in Chembur?",
         a: "Note the AC type, the affected room, any visible leakage or unusual sound, and whether the unit is turning on. Do not open electrical panels or attempt risky repairs. Share these details with SC Cool Service to discuss next steps.",
       },
@@ -1091,7 +1111,7 @@ export const locationContent = {
     focus: "Property with a newly installed or relocated unit; installation or setup concerns, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
-        q: "Need ac service , ac installation , ac mechanic & ac repair near me contact number in Kalyan?",
+        q: "Need ac service , ac installation , ac mechanic & ac repair near Kalyan?",
         a: "this is contact number of Ac technician +91 9793997768 ",
       },
       {
@@ -1135,7 +1155,7 @@ export const locationContent = {
     focus: "Residential or commercial premises; water leakage or drainage concerns, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
-        q: "Need ac service , ac installation , ac mechanic & ac repair near me contact number in Navi-Mumbai?",
+        q: "Need ac service , ac installation , ac mechanic & ac repair near Navi-Mumbai?",
         a: "this is contact number of Ac technician +91 9793997768 ",
       },
       {
@@ -1159,7 +1179,7 @@ export const locationContent = {
     focus: "Property with one or more ac units; seasonal maintenance, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
-        q: "Need ac service , ac installation , ac mechanic & ac repair near me contact number in Panvel?",
+        q: "Need ac service , ac installation , ac mechanic & ac repair near Panvel?",
         a: "this is contact number of Ac technician +91 9793997768 ",
       },
       {
