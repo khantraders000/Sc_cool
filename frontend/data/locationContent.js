@@ -707,8 +707,8 @@ export const locationContent = {
     focus: "Home or rented premises; cooling that has become less effective, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
-        q: "Need ac service , ac installation , ac mechanic & ac repair near Borivali?",
-        a: "this is contact number of Ac technician +91 9793997768 ",
+        q: "Need ac service , ac installation , ac mechanic & ac repair near Borivali east or Boriwali west?",
+        a: "Contact us Sc Cool Service | this is contact number of Ac technician +91 9793997768 ",
       },
       {
         q: "Can I book a visit immediately in Borivali?",
