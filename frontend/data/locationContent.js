@@ -1116,7 +1116,7 @@ export const locationContent = {
     faqs: [
       {
         q: "Looking for AC fitting services near me?",
-        a: "Need professional AC fitting near you? Our experienced technicians provide quick and reliable AC installation at your doorstep. Get quality service at affordable prices with hassle-free booking.This is contact number of Ac technician +91 9793997768 ",
+        a: "Need professional AC fitting near you? Our experienced technicians provide quick and reliable AC installation at your doorstep. Get quality service at affordable prices with hassle-free booking.This is contact number of Ac technician +91 9793997768",
       },
       {
         q: "Need ac service , ac installation , ac mechanic & ac repair near Kalyan?",
