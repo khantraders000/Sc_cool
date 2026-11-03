@@ -1160,7 +1160,7 @@ export const locationContent = {
     faqs: [
       {
         q: "Are you looking for reliable AC service nearby?",
-        a: "Finding a trusted AC technician nearby shouldn't be difficult. We provide professional AC repair, installation, ac cleaning services, fitting, and servicing at your doorstep. Our technicians focus on quick response, quality work, and reasonable pricing to keep your AC running smoothly.This is contact number of Ac technician +91 9793997768",
+        a: "Finding a trusted AC technician nearby shouldn't be difficult. We provide professional AC repair, installation, ac cleaning services, fitting, and ac servicing at your doorstep. Our technicians focus on quick response, quality work, and reasonable pricing to keep your AC running smoothly.This is contact number of Ac technician +91 9793997768",
       },
       {
         q: "Looking for AC fitting services near me?",
