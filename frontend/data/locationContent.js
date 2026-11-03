@@ -499,6 +499,10 @@ export const locationContent = {
     focus: "Home or apartment; poor cooling, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
+        q: "Are you looking for reliable AC service nearby?",
+        a: "Finding a trusted AC technician nearby shouldn't be difficult. We provide professional AC repair, installation, fitting, and servicing at your doorstep. Our technicians focus on quick response, quality work, and reasonable pricing to keep your AC running smoothly.This is contact number of Ac technician +91 9793997768",
+      },
+      {
         q: "Looking for AC fitting services near me?",
         a: "Need professional AC fitting near you? Our experienced technicians provide quick and reliable AC installation at your doorstep. Get quality service at affordable prices with hassle-free booking.This is contact number of Ac technician +91 9793997768",
       },
@@ -1118,6 +1122,10 @@ export const locationContent = {
     intro: "Looking for help with an AC in Kalyan? SC Cool Service can discuss repair, cleaning, installation and maintenance enquiries. Tell us whether the unit serves property with a newly installed or relocated unit, and include whether the request is for a new installation, shifting or a check after installation. The actual service and visit timing depend on the problem, site requirements and confirmed availability.",
     focus: "Property with a newly installed or relocated unit; installation or setup concerns, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
+      {
+        q: "Are you looking for reliable AC service nearby?",
+        a: "Finding a trusted AC technician nearby shouldn't be difficult. We provide professional AC repair, installation, ac cleaning services, fitting, and servicing at your doorstep. Our technicians focus on quick response, quality work, and reasonable pricing to keep your AC running smoothly.This is contact number of Ac technician +91 9793997768",
+      },
       {
         q: "Looking for AC fitting services near me?",
         a: "Need professional AC fitting near you? Our experienced technicians provide quick and reliable AC installation at your doorstep. Get quality service at affordable prices with hassle-free booking.This is contact number of Ac technician +91 9793997768",
