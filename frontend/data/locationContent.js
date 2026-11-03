@@ -7,8 +7,16 @@ export const locationContent = {
     focus: "Home or apartment; poor cooling, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
-        q: "Need ac service near me contact number in Colaba?",
-        a: "this is contact number of ac technician +91 9793997768",
+        q: "Are you looking for reliable AC service nearby?",
+        a: "Finding a trusted AC technician nearby shouldn't be difficult. We provide professional AC repair, installation, ac cleaning services, fitting, and servicing at your doorstep. Our technicians focus on quick response, quality work, and reasonable pricing to keep your AC running smoothly.This is contact number of Ac technician +91 9793997768",
+      },
+      {
+        q: "Looking for AC fitting services near me?",
+        a: "Need professional AC fitting near you? Our experienced technicians provide quick and reliable AC installation at your doorstep. Get quality service at affordable prices with hassle-free booking.This is contact number of Ac technician +91 9793997768",
+      },
+      {
+        q: "Need ac service , ac installation , ac mechanic & ac repair near Colaba?",
+        a: "this is contact number of Ac technician +91 9793997768 ",
       },
       {
         q: "What details help with an AC repair enquiry in Colaba?",
@@ -154,6 +162,14 @@ export const locationContent = {
     intro: "AC problems can look similar even when the causes differ. If you are contacting SC Cool Service from Charni Road, explain whether the unit is at home or workplace and provide the service address, recent symptoms and whether the unit has been cleaned recently. This helps establish whether you need diagnosis, cleaning, installation advice or routine maintenance; coverage must be confirmed for the address.",
     focus: "Home or workplace; dust build-up or reduced cooling, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
+      {
+        q: "Are you looking for reliable AC service nearby?",
+        a: "Finding a trusted AC technician nearby shouldn't be difficult. We provide professional AC repair, installation, ac cleaning services, fitting, and servicing at your doorstep. Our technicians focus on quick response, quality work, and reasonable pricing to keep your AC running smoothly.This is contact number of Ac technician +91 9793997768",
+      },
+      {
+        q: "Looking for AC fitting services near me?",
+        a: "Need professional AC fitting near you? Our experienced technicians provide quick and reliable AC installation at your doorstep. Get quality service at affordable prices with hassle-free booking.This is contact number of Ac technician +91 9793997768",
+      },
       {
         q: "Need ac service , ac installation , ac mechanic & ac repair near Charni-road?",
         a: "this is contact number of Ac technician +91 9793997768 ",
@@ -550,6 +566,14 @@ export const locationContent = {
     intro: "For an AC service request in Santacruz, a clear description is more useful than guessing at the fault. Tell us whether the unit serves shop or customer-facing space, then share the property address, the AC type and the hours when access is possible. SC Cool Service can review the requirement and check availability for your exact address.",
     focus: "Shop or customer-facing space; water dripping indoors, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
+      {
+        q: "Are you looking for reliable AC service nearby?",
+        a: "Finding a trusted AC technician nearby shouldn't be difficult. We provide professional AC repair, installation, ac cleaning services, fitting, and servicing at your doorstep. Our technicians focus on quick response, quality work, and reasonable pricing to keep your AC running smoothly.This is contact number of Ac technician +91 9793997768",
+      },
+      {
+        q: "Looking for AC fitting services near me?",
+        a: "Need professional AC fitting near you? Our experienced technicians provide quick and reliable AC installation at your doorstep. Get quality service at affordable prices with hassle-free booking.This is contact number of Ac technician +91 9793997768",
+      },
       {
         q: "Need ac service , ac installation , ac mechanic & ac repair near Santacruz?",
         a: "this is contact number of Ac technician +91 9793997768 ",
@@ -1103,6 +1127,18 @@ export const locationContent = {
     focus: "Home, office or small commercial space; an AC that switches off unexpectedly, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
       {
+        q: "Are you looking for reliable AC service nearby?",
+        a: "Finding a trusted AC technician nearby shouldn't be difficult. We provide professional AC repair, installation, ac cleaning services, fitting, and servicing at your doorstep. Our technicians focus on quick response, quality work, and reasonable pricing to keep your AC running smoothly.This is contact number of Ac technician +91 9793997768",
+      },
+      {
+        q: "Looking for AC fitting services near me?",
+        a: "Need professional AC fitting near you? Our experienced technicians provide quick and reliable AC installation at your doorstep. Get quality service at affordable prices with hassle-free booking.This is contact number of Ac technician +91 9793997768",
+      },
+      {
+        q: "Need ac service , ac installation , ac mechanic & ac repair near Thane?",
+        a: "this is contact number of Ac technician +91 9793997768 ",
+      },
+      {
         q: "Can I enquire about AC cleaning or maintenance in Thane?",
         a: "You can contact SC Cool Service with your address, AC type and maintenance requirement. Mention any performance change and, if known, when the unit was last serviced; the team can confirm the available service options.",
       },
@@ -1198,6 +1234,14 @@ export const locationContent = {
     intro: "AC problems can look similar even when the causes differ. If you are contacting SC Cool Service from Panvel, explain whether the unit is at property with one or more AC units and provide how many units need attention and whether the request is for a single repair or planned maintenance. This helps establish whether you need diagnosis, cleaning, installation advice or routine maintenance; coverage must be confirmed for the address.",
     focus: "Property with one or more ac units; seasonal maintenance, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
     faqs: [
+      {
+        q: "Are you looking for reliable AC service nearby?",
+        a: "Finding a trusted AC technician nearby shouldn't be difficult. We provide professional AC repair, installation, ac cleaning services, fitting, and servicing at your doorstep. Our technicians focus on quick response, quality work, and reasonable pricing to keep your AC running smoothly.This is contact number of Ac technician +91 9793997768",
+      },
+      {
+        q: "Looking for AC fitting services near me?",
+        a: "Need professional AC fitting near you? Our experienced technicians provide quick and reliable AC installation at your doorstep. Get quality service at affordable prices with hassle-free booking.This is contact number of Ac technician +91 9793997768",
+      },
       {
         q: "Need ac service , ac installation , ac mechanic & ac repair near Panvel?",
         a: "this is contact number of Ac technician +91 9793997768 ",
