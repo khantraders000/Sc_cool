@@ -2,6 +2,7 @@ import { Space_Grotesk, Inter } from 'next/font/google';
 import '../styles/globals.css';
 import "../styles/location-page.css"
 import "../styles/GoogleReviewsCarousel.module.css"
+import Script from 'next/script';
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -20,6 +21,15 @@ const inter = Inter({
 export default function App({ Component, pageProps }) {
   return (
     <div className={`${spaceGrotesk.variable} ${inter.variable} font-body`}>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6T2WGRD4H3">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6T2WGRD4H3');
+    </script>
       <Component {...pageProps} />
     </div>
   );
