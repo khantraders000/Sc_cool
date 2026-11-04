@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://sccool.in';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://sc-cool.onrender.com/api/book';
 
 export default function BookingForm() {
   const [values, setValues] = useState({
