@@ -87,8 +87,20 @@ export default function BookingForm() {
         }),
       });
 
-      if (!res.ok) throw new Error('Request failed');
-      setStatus('success');
+
+    if (!res.ok) throw new Error('Request failed');
+
+    // Google Analytics 4 - Successful Booking Event
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'generate_lead', {
+        method: 'website_booking_form',
+        service_type: values.service,
+      });
+    }
+
+    // Show booking confirmation
+    setStatus('success');
+
     } catch (err) {
       setStatus('error');
       setErrorMsg('Something went wrong while sending your booking. Please try again or call us directly.');
