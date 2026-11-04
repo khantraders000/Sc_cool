@@ -21,7 +21,7 @@ const app = express();
 const allowedOrigins = (
   process.env.CORS_ORIGIN ||
   process.env.FRONTEND_ORIGIN ||
-  "https://sccool.in,https://www.sccool.in"
+  "https://sccool.in || https://www.sccool.in"
 )
   .split(",")
   .map((origin) => origin.trim())
