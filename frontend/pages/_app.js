@@ -20,15 +20,23 @@ const inter = Inter({
 export default function App({ Component, pageProps }) {
   return (
     <>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6T2WGRD4H3">
-    </script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-6T2WGRD4H3"
+        strategy="afterInteractive"
+      />
 
-      gtag('config', 'G-6T2WGRD4H3');
-    </script>
+      <Script
+        id="google-tag"
+        strategy="afterInteractive"
+      >
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = gtag;
+          gtag('js', new Date());
+          gtag('config', 'G-6T2WGRD4H3');
+        `}
+      </Script>
     <div className={`${spaceGrotesk.variable} ${inter.variable} font-body`}>
       <Component {...pageProps} />
     </div>
