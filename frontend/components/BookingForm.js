@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://www.sccool.in';
+const API_URL = process.env.NEXT_PUBLIC_Booking_API_URL  || 'http://localhost:4000';
 
 export default function BookingForm() {
   const [values, setValues] = useState({
