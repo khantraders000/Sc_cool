@@ -3,7 +3,7 @@
 export const locationContent = {
   "colaba": {
     "title": "AC Repair & Service in Colaba, Mumbai",
-    "description": "Need AC repair or AC service in Colaba, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need AC repair in Colaba, Mumbai? Call SC Cool Service at +91 9793997768 for AC servicing, installation and cooling problem enquiries.",
     "intro": "Need AC repair or AC service in Colaba, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Colaba for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on installation planning, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -31,7 +31,7 @@ export const locationContent = {
   },
   "cuffe-parade": {
     "title": "AC Repair & Service in Cuffe Parade, Mumbai",
-    "description": "Need AC repair or AC service in Cuffe Parade, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Looking for AC service in Cuffe Parade, Mumbai? Call +91 9793997768 for split or window AC repair, cleaning and installation enquiries.",
     "intro": "If your air conditioner is not cooling properly in Cuffe Parade, Mumbai, start with the symptoms you can see: seasonal servicing, routine maintenance or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Cuffe Parade for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including routine maintenance, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -59,7 +59,7 @@ export const locationContent = {
   },
   "nariman-point": {
     "title": "AC Repair & Service in Nariman Point, Mumbai",
-    "description": "Need AC repair or AC service in Nariman Point, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "AC not cooling or leaking water in Nariman Point, Mumbai? Call SC Cool Service at +91 9793997768 to enquire about AC repair and servicing.",
     "intro": "For home, office or shop AC service enquiries in Nariman Point, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Nariman Point for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac cleaning and maintenance, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -87,7 +87,7 @@ export const locationContent = {
   },
   "churchgate": {
     "title": "AC Repair & Service in Churchgate, Mumbai",
-    "description": "Need AC repair or AC service in Churchgate, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need an AC technician in Churchgate, Mumbai? Contact SC Cool Service on +91 9793997768 for AC repair, maintenance and installation enquiries.",
     "intro": "Need AC repair or AC service in Churchgate, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Churchgate for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on installation planning, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -115,7 +115,7 @@ export const locationContent = {
   },
   "fort": {
     "title": "AC Repair & Service in Fort, Mumbai",
-    "description": "Need AC repair or AC service in Fort, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Book an AC service enquiry in Fort, Mumbai. Call SC Cool Service at +91 9793997768 for repair, cleaning or AC installation.",
     "intro": "If your air conditioner is not cooling properly in Fort, Mumbai, start with the symptoms you can see: seasonal servicing, routine maintenance or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Fort for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including routine maintenance, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -143,7 +143,7 @@ export const locationContent = {
   },
   "kala-ghoda": {
     "title": "AC Repair & Service in Kala Ghoda, Mumbai",
-    "description": "Need AC repair or AC service in Kala Ghoda, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Searching for AC repair near you in Kala Ghoda, Mumbai? Call +91 9793997768 for servicing, cooling issues and water leakage repair enquiries.",
     "intro": "For home, office or shop AC service enquiries in Kala Ghoda, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Kala Ghoda for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac cleaning and maintenance, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -171,7 +171,7 @@ export const locationContent = {
   },
   "marine-lines": {
     "title": "AC Repair & Service in Marine Lines, Mumbai",
-    "description": "Need AC repair or AC service in Marine Lines, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need split AC or window AC service in Marine Lines, Mumbai? Call SC Cool Service at +91 9793997768 for repair and maintenance enquiries.",
     "intro": "Need AC repair or AC service in Marine Lines, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Marine Lines for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on unusual noise, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -199,7 +199,7 @@ export const locationContent = {
   },
   "charni-road": {
     "title": "AC Repair & Service in Charni Road, Mumbai",
-    "description": "Need AC repair or AC service in Charni Road, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Contact SC Cool Service for AC repair in Charni Road, Mumbai. Call +91 9793997768 for servicing, AC gas filling and installation enquiries.",
     "intro": "If your air conditioner is not cooling properly in Charni Road, Mumbai, start with the symptoms you can see: installation planning, ac shifting or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Charni Road for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including ac shifting, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -227,7 +227,7 @@ export const locationContent = {
   },
   "girgaon": {
     "title": "AC Repair & Service in Girgaon, Mumbai",
-    "description": "Need AC repair or AC service in Girgaon, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need AC repair in Girgaon, Mumbai? Call SC Cool Service at +91 9793997768 for AC servicing, installation and cooling problem enquiries.",
     "intro": "For home, office or shop AC service enquiries in Girgaon, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Girgaon for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering cooling performance checks, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -255,7 +255,7 @@ export const locationContent = {
   },
   "walkeshwar": {
     "title": "AC Repair & Service in Walkeshwar, Mumbai",
-    "description": "Need AC repair or AC service in Walkeshwar, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Looking for AC service in Walkeshwar, Mumbai? Call +91 9793997768 for split or window AC repair, cleaning and installation enquiries.",
     "intro": "Need AC repair or AC service in Walkeshwar, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Walkeshwar for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on water leakage, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -283,7 +283,7 @@ export const locationContent = {
   },
   "malabar-hill": {
     "title": "AC Repair & Service in Malabar Hill, Mumbai",
-    "description": "Need AC repair or AC service in Malabar Hill, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "AC not cooling or leaking water in Malabar Hill, Mumbai? Call SC Cool Service at +91 9793997768 to enquire about AC repair and servicing.",
     "intro": "If your air conditioner is not cooling properly in Malabar Hill, Mumbai, start with the symptoms you can see: unusual noise, unexpected shutdowns or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Malabar Hill for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including unexpected shutdowns, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -311,7 +311,7 @@ export const locationContent = {
   },
   "cumballa-hill": {
     "title": "AC Repair & Service in Cumballa Hill, Mumbai",
-    "description": "Need AC repair or AC service in Cumballa Hill, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need an AC technician in Cumballa Hill, Mumbai? Contact SC Cool Service on +91 9793997768 for AC repair, maintenance and installation enquiries.",
     "intro": "For home, office or shop AC service enquiries in Cumballa Hill, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Cumballa Hill for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac drainage concerns, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -339,7 +339,7 @@ export const locationContent = {
   },
   "breach-candy": {
     "title": "AC Repair & Service in Breach Candy, Mumbai",
-    "description": "Need AC repair or AC service in Breach Candy, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Book an AC service enquiry in Breach Candy, Mumbai. Call SC Cool Service at +91 9793997768 for repair, cleaning or AC installation.",
     "intro": "Need AC repair or AC service in Breach Candy, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Breach Candy for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on dust build-up, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -367,7 +367,7 @@ export const locationContent = {
   },
   "tardeo": {
     "title": "AC Repair & Service in Tardeo, Mumbai",
-    "description": "Need AC repair or AC service in Tardeo, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Searching for AC repair near you in Tardeo, Mumbai? Call +91 9793997768 for servicing, cooling issues and water leakage repair enquiries.",
     "intro": "If your air conditioner is not cooling properly in Tardeo, Mumbai, start with the symptoms you can see: dust build-up, reduced airflow or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Tardeo for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including reduced airflow, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -395,7 +395,7 @@ export const locationContent = {
   },
   "byculla": {
     "title": "AC Repair & Service in Byculla, Mumbai",
-    "description": "Need AC repair or AC service in Byculla, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need split AC or window AC service in Byculla, Mumbai? Call SC Cool Service at +91 9793997768 for repair and maintenance enquiries.",
     "intro": "For home, office or shop AC service enquiries in Byculla, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Byculla for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering new ac setup, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -423,7 +423,7 @@ export const locationContent = {
   },
   "mazgaon": {
     "title": "AC Repair & Service in Mazgaon, Mumbai",
-    "description": "Need AC repair or AC service in Mazgaon, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Contact SC Cool Service for AC repair in Mazgaon, Mumbai. Call +91 9793997768 for servicing, AC gas filling and installation enquiries.",
     "intro": "Need AC repair or AC service in Mazgaon, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Mazgaon for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on seasonal servicing, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -451,7 +451,7 @@ export const locationContent = {
   },
   "parel": {
     "title": "AC Repair & Service in Parel, Mumbai",
-    "description": "Need AC repair or AC service in Parel, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need AC repair in Parel, Mumbai? Call SC Cool Service at +91 9793997768 for AC servicing, installation and cooling problem enquiries.",
     "intro": "If your air conditioner is not cooling properly in Parel, Mumbai, start with the symptoms you can see: installation planning, ac shifting or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Parel for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including ac shifting, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -479,7 +479,7 @@ export const locationContent = {
   },
   "lower-parel": {
     "title": "AC Repair & Service in Lower Parel, Mumbai",
-    "description": "Need AC repair or AC service in Lower Parel, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Looking for AC service in Lower Parel, Mumbai? Call +91 9793997768 for split or window AC repair, cleaning and installation enquiries.",
     "intro": "For home, office or shop AC service enquiries in Lower Parel, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Lower Parel for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac performance issues, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -507,7 +507,7 @@ export const locationContent = {
   },
   "worli": {
     "title": "AC Repair & Service in Worli, Mumbai",
-    "description": "Need AC repair or AC service in Worli, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "AC not cooling or leaking water in Worli, Mumbai? Call SC Cool Service at +91 9793997768 to enquire about AC repair and servicing.",
     "intro": "Need AC repair or AC service in Worli, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Worli for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on seasonal servicing, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -535,7 +535,7 @@ export const locationContent = {
   },
   "prabhadevi": {
     "title": "AC Repair & Service in Prabhadevi, Mumbai",
-    "description": "Need AC repair or AC service in Prabhadevi, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need an AC technician in Prabhadevi, Mumbai? Contact SC Cool Service on +91 9793997768 for AC repair, maintenance and installation enquiries.",
     "intro": "If your air conditioner is not cooling properly in Prabhadevi, Mumbai, start with the symptoms you can see: unusual noise, unexpected shutdowns or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Prabhadevi for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including unexpected shutdowns, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -563,7 +563,7 @@ export const locationContent = {
   },
   "dadar": {
     "title": "AC Repair & Service in Dadar, Mumbai",
-    "description": "Need AC repair or AC service in Dadar, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Book an AC service enquiry in Dadar, Mumbai. Call SC Cool Service at +91 9793997768 for repair, cleaning or AC installation.",
     "intro": "For home, office or shop AC service enquiries in Dadar, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Dadar for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering new ac setup, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -591,7 +591,7 @@ export const locationContent = {
   },
   "matunga": {
     "title": "AC Repair & Service in Matunga, Mumbai",
-    "description": "Need AC repair or AC service in Matunga, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Searching for AC repair near you in Matunga, Mumbai? Call +91 9793997768 for servicing, cooling issues and water leakage repair enquiries.",
     "intro": "Need AC repair or AC service in Matunga, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Matunga for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on seasonal servicing, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -619,7 +619,7 @@ export const locationContent = {
   },
   "sion": {
     "title": "AC Repair & Service in Sion, Mumbai",
-    "description": "Need AC repair or AC service in Sion, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need split AC or window AC service in Sion, Mumbai? Call SC Cool Service at +91 9793997768 for repair and maintenance enquiries.",
     "intro": "If your air conditioner is not cooling properly in Sion, Mumbai, start with the symptoms you can see: dust build-up, reduced airflow or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Sion for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including reduced airflow, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -646,8 +646,8 @@ export const locationContent = {
     ]
   },
   "wadala": {
-    "title": "AC Repair & Service in Wadala, Mumbai",
-    "description": "Need AC repair or AC service in Wadala, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "title": "AC Repair & Service Near Me in Wadala, Mumbai",
+    "description": "Contact SC Cool Service for AC repair in Wadala, Mumbai. Call +91 9793997768 for servicing, AC gas filling and installation enquiries.",
     "intro": "For home, office or shop AC service enquiries in Wadala, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Wadala for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac not cooling properly, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -674,8 +674,8 @@ export const locationContent = {
     ]
   },
   "bandra": {
-    "title": "AC Repair & Service in Bandra, Mumbai",
-    "description": "Need AC repair or AC service in Bandra, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "title": "AC Repair & Service Near Me in Bandra, Mumbai",
+    "description": "Need AC repair in Bandra, Mumbai? Call SC Cool Service at +91 9793997768 for AC servicing, installation and cooling problem enquiries.",
     "intro": "Need AC repair or AC service in Bandra, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Bandra for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on installation planning, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -702,8 +702,8 @@ export const locationContent = {
     ]
   },
   "khar": {
-    "title": "AC Repair & Service in Khar, Mumbai",
-    "description": "Need AC repair or AC service in Khar, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "title": "AC Repair & Service Near Me in Khar, Mumbai",
+    "description": "Looking for AC service in Khar, Mumbai? Call +91 9793997768 for split or window AC repair, cleaning and installation enquiries.",
     "intro": "If your air conditioner is not cooling properly in Khar, Mumbai, start with the symptoms you can see: unusual noise, unexpected shutdowns or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Khar for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including unexpected shutdowns, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -731,7 +731,7 @@ export const locationContent = {
   },
   "santacruz": {
     "title": "AC Repair & Service in Santacruz, Mumbai",
-    "description": "Need AC repair or AC service in Santacruz, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "AC not cooling or leaking water in Santacruz, Mumbai? Call SC Cool Service at +91 9793997768 to enquire about AC repair and servicing.",
     "intro": "For home, office or shop AC service enquiries in Santacruz, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Santacruz for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac cleaning and maintenance, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -759,7 +759,7 @@ export const locationContent = {
   },
   "vile-parle": {
     "title": "AC Repair & Service in Vile Parle, Mumbai",
-    "description": "Need AC repair or AC service in Vile Parle, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need an AC technician in Vile Parle, Mumbai? Contact SC Cool Service on +91 9793997768 for AC repair, maintenance and installation enquiries.",
     "intro": "Need AC repair or AC service in Vile Parle, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Vile Parle for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on water leakage, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -787,7 +787,7 @@ export const locationContent = {
   },
   "juhu": {
     "title": "AC Repair & Service in Juhu, Mumbai",
-    "description": "Need AC repair or AC service in Juhu, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Book an AC service enquiry in Juhu, Mumbai. Call SC Cool Service at +91 9793997768 for repair, cleaning or AC installation.",
     "intro": "If your air conditioner is not cooling properly in Juhu, Mumbai, start with the symptoms you can see: poor cooling, weak airflow or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Juhu for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including weak airflow, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -815,7 +815,7 @@ export const locationContent = {
   },
   "andheri": {
     "title": "AC Repair & Service in Andheri, Mumbai",
-    "description": "Need AC repair or AC service in Andheri, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Searching for AC repair near you in Andheri, Mumbai? Call +91 9793997768 for servicing, cooling issues and water leakage repair enquiries.",
     "intro": "For home, office or shop AC service enquiries in Andheri, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Andheri for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering cooling performance checks, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -843,7 +843,7 @@ export const locationContent = {
   },
   "jogeshwari": {
     "title": "AC Repair & Service in Jogeshwari, Mumbai",
-    "description": "Need AC repair or AC service in Jogeshwari, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need split AC or window AC service in Jogeshwari, Mumbai? Call SC Cool Service at +91 9793997768 for repair and maintenance enquiries.",
     "intro": "Need AC repair or AC service in Jogeshwari, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Jogeshwari for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on water leakage, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -871,7 +871,7 @@ export const locationContent = {
   },
   "goregaon": {
     "title": "AC Repair & Service in Goregaon, Mumbai",
-    "description": "Need AC repair or AC service in Goregaon, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Contact SC Cool Service for AC repair in Goregaon, Mumbai. Call +91 9793997768 for servicing, AC gas filling and installation enquiries.",
     "intro": "If your air conditioner is not cooling properly in Goregaon, Mumbai, start with the symptoms you can see: installation planning, ac shifting or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Goregaon for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including ac shifting, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -899,7 +899,7 @@ export const locationContent = {
   },
   "malad": {
     "title": "AC Repair & Service in Malad, Mumbai",
-    "description": "Need AC repair or AC service in Malad, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need AC repair in Malad, Mumbai? Call SC Cool Service at +91 9793997768 for AC servicing, installation and cooling problem enquiries.",
     "intro": "For home, office or shop AC service enquiries in Malad, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Malad for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac drainage concerns, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -927,7 +927,7 @@ export const locationContent = {
   },
   "kandivali": {
     "title": "AC Repair & Service in Kandivali, Mumbai",
-    "description": "Need AC repair or AC service in Kandivali, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Looking for AC service in Kandivali, Mumbai? Call +91 9793997768 for split or window AC repair, cleaning and installation enquiries.",
     "intro": "Need AC repair or AC service in Kandivali, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Kandivali for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on seasonal servicing, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -955,7 +955,7 @@ export const locationContent = {
   },
   "borivali": {
     "title": "AC Repair & Service in Borivali, Mumbai",
-    "description": "Need AC repair or AC service in Borivali, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "AC not cooling or leaking water in Borivali, Mumbai? Call SC Cool Service at +91 9793997768 to enquire about AC repair and servicing.",
     "intro": "If your air conditioner is not cooling properly in Borivali, Mumbai, start with the symptoms you can see: installation planning, ac shifting or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Borivali for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including ac shifting, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -983,7 +983,7 @@ export const locationContent = {
   },
   "dahisar": {
     "title": "AC Repair & Service in Dahisar, Mumbai",
-    "description": "Need AC repair or AC service in Dahisar, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need an AC technician in Dahisar, Mumbai? Contact SC Cool Service on +91 9793997768 for AC repair, maintenance and installation enquiries.",
     "intro": "For home, office or shop AC service enquiries in Dahisar, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Dahisar for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac not cooling properly, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1011,7 +1011,7 @@ export const locationContent = {
   },
   "kurla": {
     "title": "AC Repair & Service in Kurla, Mumbai",
-    "description": "Need AC repair or AC service in Kurla, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Book an AC service enquiry in Kurla, Mumbai. Call SC Cool Service at +91 9793997768 for repair, cleaning or AC installation.",
     "intro": "Need AC repair or AC service in Kurla, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Kurla for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on dust build-up, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1039,7 +1039,7 @@ export const locationContent = {
   },
   "sakinaka": {
     "title": "AC Repair & Service in Sakinaka, Mumbai",
-    "description": "Need AC repair or AC service in Sakinaka, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Searching for AC repair near you in Sakinaka, Mumbai? Call +91 9793997768 for servicing, cooling issues and water leakage repair enquiries.",
     "intro": "If your air conditioner is not cooling properly in Sakinaka, Mumbai, start with the symptoms you can see: water leakage, indoor water dripping or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Sakinaka for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including indoor water dripping, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1067,7 +1067,7 @@ export const locationContent = {
   },
   "ghatkopar": {
     "title": "AC Repair & Service in Ghatkopar, Mumbai",
-    "description": "Need AC repair or AC service in Ghatkopar, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need split AC or window AC service in Ghatkopar, Mumbai? Call SC Cool Service at +91 9793997768 for repair and maintenance enquiries.",
     "intro": "For home, office or shop AC service enquiries in Ghatkopar, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Ghatkopar for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac drainage concerns, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1095,7 +1095,7 @@ export const locationContent = {
   },
   "vidyavihar": {
     "title": "AC Repair & Service in Vidyavihar, Mumbai",
-    "description": "Need AC repair or AC service in Vidyavihar, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Contact SC Cool Service for AC repair in Vidyavihar, Mumbai. Call +91 9793997768 for servicing, AC gas filling and installation enquiries.",
     "intro": "Need AC repair or AC service in Vidyavihar, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Vidyavihar for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on seasonal servicing, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1123,7 +1123,7 @@ export const locationContent = {
   },
   "vikhroli": {
     "title": "AC Repair & Service in Vikhroli, Mumbai",
-    "description": "Need AC repair or AC service in Vikhroli, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need AC repair in Vikhroli, Mumbai? Call SC Cool Service at +91 9793997768 for AC servicing, installation and cooling problem enquiries.",
     "intro": "If your air conditioner is not cooling properly in Vikhroli, Mumbai, start with the symptoms you can see: unusual noise, unexpected shutdowns or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Vikhroli for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including unexpected shutdowns, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1151,7 +1151,7 @@ export const locationContent = {
   },
   "kanjurmarg": {
     "title": "AC Repair & Service in Kanjurmarg, Mumbai",
-    "description": "Need AC repair or AC service in Kanjurmarg, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Looking for AC service in Kanjurmarg, Mumbai? Call +91 9793997768 for split or window AC repair, cleaning and installation enquiries.",
     "intro": "For home, office or shop AC service enquiries in Kanjurmarg, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Kanjurmarg for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac not cooling properly, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1179,7 +1179,7 @@ export const locationContent = {
   },
   "bhandup": {
     "title": "AC Repair & Service in Bhandup, Mumbai",
-    "description": "Need AC repair or AC service in Bhandup, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "AC not cooling or leaking water in Bhandup, Mumbai? Call SC Cool Service at +91 9793997768 to enquire about AC repair and servicing.",
     "intro": "Need AC repair or AC service in Bhandup, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Bhandup for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on poor cooling, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1207,7 +1207,7 @@ export const locationContent = {
   },
   "mulund": {
     "title": "AC Repair & Service in Mulund, Mumbai",
-    "description": "Need AC repair or AC service in Mulund, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need an AC technician in Mulund, Mumbai? Contact SC Cool Service on +91 9793997768 for AC repair, maintenance and installation enquiries.",
     "intro": "If your air conditioner is not cooling properly in Mulund, Mumbai, start with the symptoms you can see: water leakage, indoor water dripping or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Mulund for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including indoor water dripping, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1235,7 +1235,7 @@ export const locationContent = {
   },
   "chembur": {
     "title": "AC Repair & Service in Chembur, Mumbai",
-    "description": "Need AC repair or AC service in Chembur, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Book an AC service enquiry in Chembur, Mumbai. Call SC Cool Service at +91 9793997768 for repair, cleaning or AC installation.",
     "intro": "For home, office or shop AC service enquiries in Chembur, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Chembur for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering new ac setup, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1263,7 +1263,7 @@ export const locationContent = {
   },
   "govandi": {
     "title": "AC Repair & Service in Govandi, Mumbai",
-    "description": "Need AC repair or AC service in Govandi, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Searching for AC repair near you in Govandi, Mumbai? Call +91 9793997768 for servicing, cooling issues and water leakage repair enquiries.",
     "intro": "Need AC repair or AC service in Govandi, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Govandi for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on poor cooling, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1291,7 +1291,7 @@ export const locationContent = {
   },
   "mankhurd": {
     "title": "AC Repair & Service in Mankhurd, Mumbai",
-    "description": "Need AC repair or AC service in Mankhurd, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need split AC or window AC service in Mankhurd, Mumbai? Call SC Cool Service at +91 9793997768 for repair and maintenance enquiries.",
     "intro": "If your air conditioner is not cooling properly in Mankhurd, Mumbai, start with the symptoms you can see: poor cooling, weak airflow or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Mankhurd for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including weak airflow, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1319,7 +1319,7 @@ export const locationContent = {
   },
   "trombay": {
     "title": "AC Repair & Service in Trombay, Mumbai",
-    "description": "Need AC repair or AC service in Trombay, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Contact SC Cool Service for AC repair in Trombay, Mumbai. Call +91 9793997768 for servicing, AC gas filling and installation enquiries.",
     "intro": "For home, office or shop AC service enquiries in Trombay, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Trombay for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering new ac setup, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1347,7 +1347,7 @@ export const locationContent = {
   },
   "anushakti-nagar": {
     "title": "AC Repair & Service in Anushakti Nagar, Mumbai",
-    "description": "Need AC repair or AC service in Anushakti Nagar, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need AC repair in Anushakti Nagar, Mumbai? Call SC Cool Service at +91 9793997768 for AC servicing, installation and cooling problem enquiries.",
     "intro": "Need AC repair or AC service in Anushakti Nagar, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Anushakti Nagar for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on installation planning, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1375,7 +1375,7 @@ export const locationContent = {
   },
   "mira-road": {
     "title": "AC Repair & Service in Mira Road, Mumbai",
-    "description": "Need AC repair or AC service in Mira Road, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Looking for AC service in Mira Road, Mumbai? Call +91 9793997768 for split or window AC repair, cleaning and installation enquiries.",
     "intro": "If your air conditioner is not cooling properly in Mira Road, Mumbai, start with the symptoms you can see: installation planning, ac shifting or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Mira Road for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including ac shifting, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1403,7 +1403,7 @@ export const locationContent = {
   },
   "bhayandar": {
     "title": "AC Repair & Service in Bhayandar, Mumbai",
-    "description": "Need AC repair or AC service in Bhayandar, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "AC not cooling or leaking water in Bhayandar, Mumbai? Call SC Cool Service at +91 9793997768 to enquire about AC repair and servicing.",
     "intro": "For home, office or shop AC service enquiries in Bhayandar, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Bhayandar for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac performance issues, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1431,7 +1431,7 @@ export const locationContent = {
   },
   "vasai": {
     "title": "AC Repair & Service in Vasai, Mumbai",
-    "description": "Need AC repair or AC service in Vasai, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need an AC technician in Vasai, Mumbai? Contact SC Cool Service on +91 9793997768 for AC repair, maintenance and installation enquiries.",
     "intro": "Need AC repair or AC service in Vasai, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Vasai for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on installation planning, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1459,7 +1459,7 @@ export const locationContent = {
   },
   "virar": {
     "title": "AC Repair & Service in Virar, Mumbai",
-    "description": "Need AC repair or AC service in Virar, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Book an AC service enquiry in Virar, Mumbai. Call SC Cool Service at +91 9793997768 for repair, cleaning or AC installation.",
     "intro": "If your air conditioner is not cooling properly in Virar, Mumbai, start with the symptoms you can see: unusual noise, unexpected shutdowns or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Virar for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including unexpected shutdowns, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1487,7 +1487,7 @@ export const locationContent = {
   },
   "thane": {
     "title": "AC Repair & Service in Thane, Mumbai",
-    "description": "Need AC repair or AC service in Thane, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Searching for AC repair near you in Thane, Mumbai? Call +91 9793997768 for servicing, cooling issues and water leakage repair enquiries.",
     "intro": "For home, office or shop AC service enquiries in Thane, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Thane for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac not cooling properly, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1515,7 +1515,7 @@ export const locationContent = {
   },
   "kalyan": {
     "title": "AC Repair & Service in Kalyan, Mumbai",
-    "description": "Need AC repair or AC service in Kalyan, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need split AC or window AC service in Kalyan, Mumbai? Call SC Cool Service at +91 9793997768 for repair and maintenance enquiries.",
     "intro": "Need AC repair or AC service in Kalyan, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Kalyan for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on installation planning, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1543,7 +1543,7 @@ export const locationContent = {
   },
   "dombivli": {
     "title": "AC Repair & Service in Dombivli, Mumbai",
-    "description": "Need AC repair or AC service in Dombivli, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Contact SC Cool Service for AC repair in Dombivli, Mumbai. Call +91 9793997768 for servicing, AC gas filling and installation enquiries.",
     "intro": "If your air conditioner is not cooling properly in Dombivli, Mumbai, start with the symptoms you can see: unusual noise, unexpected shutdowns or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Dombivli for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Split AC and window AC service enquiries, including unexpected shutdowns, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1571,7 +1571,7 @@ export const locationContent = {
   },
   "navi-mumbai": {
     "title": "AC Repair & Service in Navi Mumbai, Mumbai",
-    "description": "Need AC repair or AC service in Navi Mumbai, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Need AC repair in Navi Mumbai? Call SC Cool Service at +91 9793997768 for AC servicing, installation and cooling problem enquiries.",
     "intro": "For home, office or shop AC service enquiries in Navi Mumbai, Mumbai, contact SC Cool Service with the unit type and the problem you have noticed. We can discuss AC repair, split AC service, window AC servicing, deep cleaning, installation and maintenance options. The exact work and visit timing are confirmed after reviewing the address and site requirements. You can also enquire about an AC technician in Navi Mumbai for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "Residential and commercial AC enquiries covering ac not cooling properly, repair, servicing and installation; confirm service scope and visit timing with the team. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
@@ -1599,7 +1599,7 @@ export const locationContent = {
   },
   "panvel": {
     "title": "AC Repair & Service in Panvel, Mumbai",
-    "description": "Need AC repair or AC service in Panvel, Mumbai? Ask SC Cool Service about cooling problems, water leakage, cleaning or installation. Confirm address availability.",
+    "description": "Looking for AC service in Panvel, Mumbai? Call +91 9793997768 for split or window AC repair, cleaning and installation enquiries.",
     "intro": "Need AC repair or AC service in Panvel, Mumbai? SC Cool Service can review enquiries for split AC and window AC repair, AC cleaning, installation and routine maintenance. Tell us what the unit is doing, where it is installed and whether the issue is affecting one room or the whole property. Share your exact address so service coverage and visit availability can be checked before booking. You can also enquire about an AC technician in Panvel for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
     "focus": "AC repair and servicing enquiries for homes, apartments and workplaces; focus on installation planning, cleaning, installation and maintenance. Confirm address coverage before booking. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
     "faqs": [
