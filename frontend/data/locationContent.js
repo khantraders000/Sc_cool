@@ -114,32 +114,24 @@ export const locationContent = {
     ]
   },
   "fort": {
-    "title": "AC Repair & Service in Fort, Mumbai",
-    "description": "Book an AC service enquiry in Fort, Mumbai. Call SC Cool Service at +91 9793997768 for repair, cleaning or AC installation.",
-    "intro": "If your air conditioner is not cooling properly in Fort, Mumbai, start with the symptoms you can see: seasonal servicing, routine maintenance or unusual operation. SC Cool Service accepts enquiries for AC repair, AC servicing, cleaning and installation. Share the AC type, property address and a suitable time to discuss the service required and confirm availability. You can also enquire about an AC technician in Fort for an AC that is not cooling, unusual noise or water leakage; the fault and visit availability are confirmed after the details are reviewed.",
-    "focus": "Split AC and window AC service enquiries, including routine maintenance, AC cleaning, installation and routine maintenance; availability depends on the exact address. Relevant enquiries include split AC repair, window AC service, AC gas filling and AC installation, subject to the actual services offered and address coverage.",
-    "faqs": [
+    title: "AC Repair & Service in Fort, Mumbai",
+    description: "Contact SC Cool Service about AC repair, cleaning, installation or maintenance in Fort. Share the issue and exact address to confirm service availability.",
+    intro: "Looking for help with an AC in Fort? SC Cool Service can discuss repair, cleaning, installation and maintenance enquiries. Tell us whether the unit serves apartment or multi-room property, and include the indoor unit location and whether the issue affects one room or more than one. The actual service and visit timing depend on the problem, site requirements and confirmed availability.",
+    focus: "Apartment or multi-room property; weak airflow, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
+    faqs: [
       {
-        "q": "Do you provide AC repair and AC service in Fort, Mumbai?",
-        "a": "SC Cool Service accepts AC repair and service enquiries in Fort, Mumbai. Share your exact address, AC type and the problem you are facing so the team can confirm coverage and available visit options. For AC not cooling, water leakage or unusual noise, share the symptoms and AC type so the team can discuss the appropriate repair enquiry."
+        q: "Can I enquire about AC cleaning or maintenance in Fort?",
+        a: "You can contact SC Cool Service with your address, AC type and maintenance requirement. Mention any performance change and, if known, when the unit was last serviced; the team can confirm the available service options.",
       },
       {
-        "q": "Can I book an AC technician in Fort for an AC that is not cooling?",
-        "a": "Yes, you can enquire about an AC that is not cooling properly in Fort. Mention whether it is a split AC or window AC, whether the fan is running and when the cooling problem started. The cause can be confirmed only after proper inspection."
+        q: "What information is needed for an AC installation enquiry in Fort?",
+        a: "Share the property address, AC model or capacity if known, and whether the job is a new installation or relocation. Site conditions and installation requirements need to be reviewed before scope and availability are confirmed.",
       },
       {
-        "q": "Do you offer AC cleaning and regular AC servicing in Fort?",
-        "a": "You can contact SC Cool Service to ask about AC cleaning and routine servicing in Fort. Share the unit type, last service date if known and any dust, odour or airflow issue. The team can explain the suitable service after reviewing your requirement."
-      },
-      {
-        "q": "Can I enquire about AC installation or AC fitting in Fort?",
-        "a": "Yes, send the property address, AC type and model or capacity if available. Also mention whether this is a new AC installation or shifting an existing unit. Site conditions and service availability must be checked before confirming the work."
-      },
-      {
-        "q": "How do I book AC service near me in Fort?",
-        "a": "Call SC Cool Service on +91 9793997768 or use the website booking form. Share your name, phone number, full address, AC type and the issue. A booking is confirmed only after the team checks service coverage and agrees on a visit time."
+        q: "What details help with an AC repair enquiry in Fort?",
+        a: "Please share your full address, AC type and the main symptom. If you know when the problem started, include that too. SC Cool Service can review the details and confirm availability before arranging a visit.",
       }
-    ]
+    ],
   },
   "kala-ghoda": {
     "title": "AC Repair & Service in Kala Ghoda, Mumbai",
