@@ -492,34 +492,60 @@ export const locationContent = {
       }
     ],
   },
-  "bandra": {
-    title: "AC Repair & Service in Bandra, Mumbai",
-    description: "Contact SC Cool Service about AC repair, cleaning, installation or maintenance in Bandra. Share the issue and exact address to confirm service availability.",
-    intro: "Looking for help with an AC in Bandra? SC Cool Service can discuss repair, cleaning, installation and maintenance enquiries. Tell us whether the unit serves home or apartment, and include the room where cooling feels weak and whether the problem began suddenly or gradually. The actual service and visit timing depend on the problem, site requirements and confirmed availability.",
-    focus: "Home or apartment; poor cooling, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
-    faqs: [
-      {
-        q: "Looking for AC fitting services near me?",
-        a: "Need professional AC fitting near you? Our experienced technicians provide quick and reliable AC installation at your doorstep. Get quality service at affordable prices with hassle-free booking.This is contact number of Ac technician +91 9793997768",
-      },
-      {
-        q: "Need ac service , ac installation , ac mechanic & ac repair near Bandra?",
-        a: "this is contact number of Ac technician +91 9793997768 ",
-      },
-      {
-        q: "Do you cover every address in Bandra?",
-        a: "Coverage can depend on the exact address and current scheduling. Send SC Cool Service your locality or building address and the service required so availability can be confirmed before a visit is planned.",
-      },
-      {
-        q: "Can I enquire about AC cleaning or maintenance in Bandra?",
-        a: "You can contact SC Cool Service with your address, AC type and maintenance requirement. Mention any performance change and, if known, when the unit was last serviced; the team can confirm the available service options.",
-      },
-      {
-        q: "Can I book a visit immediately in Bandra?",
-        a: "Please contact SC Cool Service first with your exact address and a short description of the issue. A visit time should be treated as confirmed only after the team checks availability and agrees on the schedule.",
-      }
-    ],
-  },
+
+"bandra": {
+  title: "AC Repair & Service in Bandra, Mumbai | SC Cool Service",
+
+  description: "Looking for AC repair in Bandra, Mumbai? Contact SC Cool Service for split and window AC repair, AC servicing, installation, gas filling, deep cleaning and water leakage enquiries. Call +91 9793997768.",
+
+  intro: "Looking for professional AC repair and AC service in Bandra, Mumbai? SC Cool Service accepts enquiries for split AC and window AC repair, routine servicing, installation, uninstallation, gas filling and deep cleaning. Whether your air conditioner is not cooling properly, leaking water, making unusual noise or experiencing reduced airflow, contact our team to discuss the problem. We also handle enquiries about AC installation, AC shifting, cooling performance checks and regular AC maintenance, subject to service availability. Share your AC brand, model, exact location and the issue you are facing so the team can understand your requirements and confirm the available service options. For AC repair, AC servicing or an AC technician enquiry in Bandra, call +91 9793997768 or submit your booking request online.",
+
+  focus: "AC repair and AC servicing in Bandra, Mumbai, including split AC repair, window AC repair, AC not cooling, water leakage repair, AC gas filling, deep cleaning, AC installation, uninstallation and routine maintenance. Suitable for residential and commercial service enquiries, subject to confirmed address coverage and service availability.",
+
+  faqs: [
+    {
+      q: "Do you provide AC repair and AC service in Bandra, Mumbai?",
+      a: "SC Cool Service accepts enquiries for AC repair and servicing in Bandra, Mumbai. You can contact the team for split AC repair, window AC repair, cooling problems, water leakage, unusual noise and other AC-related issues. Share your exact address, AC type and the problem so service coverage and visit availability can be checked."
+    },
+    {
+      q: "Can I book an AC technician near me in Bandra?",
+      a: "If you are looking for an AC technician near you in Bandra, contact SC Cool Service on +91 9793997768. Explain whether your AC has a cooling problem, water leakage, unusual noise or another fault. Provide your locality and complete address so the team can check service availability and discuss a suitable visit."
+    },
+    {
+      q: "Do you offer AC installation and AC fitting in Bandra?",
+      a: "You can enquire about split AC installation, window AC installation, AC fitting, uninstallation and AC shifting in Bandra. Share the AC brand, model, capacity and property details if available. Installation requirements and charges may depend on the site conditions, piping, electrical work and other materials required."
+    },
+    {
+      q: "Can I enquire about AC gas filling and AC cooling problems?",
+      a: "Yes, you can contact SC Cool Service about AC gas filling and cooling-related problems in Bandra. If your air conditioner is not cooling properly, share the symptoms and AC type. A technician should inspect the unit and check for possible refrigerant leakage before gas charging is considered."
+    },
+    {
+      q: "Do you provide AC deep cleaning and regular maintenance?",
+      a: "You can enquire about AC deep cleaning, filter cleaning, coil cleaning and routine AC maintenance in Bandra. Regular cleaning can help remove accumulated dust and support proper airflow. Tell the team your AC type, last service date if known and any unusual smell or reduced cooling."
+    },
+    {
+      q: "Can you repair an AC that is leaking water or making unusual noise?",
+      a: "SC Cool Service accepts enquiries about AC water leakage, unusual noise, reduced airflow and other operating problems in Bandra. The cause may involve drainage, filters, fan components or other parts. Share the symptoms and AC model so the team can discuss the appropriate inspection and repair options."
+    },
+    {
+      q: "Do you provide AC service for homes, apartments and offices in Bandra?",
+      a: "You can enquire about AC repair, installation and maintenance for homes, apartments, shops and offices in Bandra. Share your property type, exact location, number of AC units and service requirement. Coverage and appointment availability are confirmed after reviewing the details."
+    },
+    {
+      q: "How can I book AC repair or AC servicing in Bandra?",
+      a: "To enquire about AC repair, AC servicing or installation in Bandra, call SC Cool Service at +91 9793997768 or submit the online booking form. Provide your name, contact number, full address, AC type and the problem you are facing. A visit is confirmed after the team checks availability and agrees on a schedule."
+    },
+    {
+      q: "Do you cover every address in Bandra?",
+      a: "Service availability may vary depending on your exact location and current scheduling. Share your building name, locality or complete address in Bandra along with the service you need. SC Cool Service can check whether a visit can be arranged for your location."
+    },
+    {
+      q: "How much does AC repair or AC servicing cost in Bandra?",
+      a: "AC repair and servicing charges can depend on the AC type, fault, labour, spare parts and work required. Contact SC Cool Service on +91 9793997768 with your AC model and problem to enquire about the applicable charges. Any additional repair or material cost should be discussed before work begins."
+    }
+  ],
+},
+
   "khar": {
     title: "AC Repair & Service in Khar, Mumbai",
     description: "Need AC assistance in Khar? Discuss uneven cooling, routine upkeep or installation with SC Cool Service and check coverage for your address.",
