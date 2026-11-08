@@ -630,26 +630,60 @@ export const locationContent = {
       }
     ],
   },
-  "andheri": {
-    title: "AC Repair & Service in Andheri, Mumbai",
-    description: "Need AC assistance in Andheri? Discuss an AC that switches off unexpectedly, routine upkeep or installation with SC Cool Service and check coverage for your address.",
-    intro: "Looking for help with an AC in Andheri? SC Cool Service can discuss repair, cleaning, installation and maintenance enquiries. Tell us whether the unit serves home, office or small commercial space, and include the exact service address, unit type and whether you need a repair or routine visit. The actual service and visit timing depend on the problem, site requirements and confirmed availability.",
-    focus: "Home, office or small commercial space; an AC that switches off unexpectedly, cleaning, installation and maintenance enquiries subject to confirmed address coverage",
-    faqs: [
-      {
-        q: "Can I ask about an AC that switches off unexpectedly in Andheri?",
-        a: "Yes, you can contact SC Cool Service to discuss an AC that switches off unexpectedly in Andheri. Describe what you observe and when it happens; the actual cause needs to be assessed rather than guessed from the symptom alone.",
-      },
-      {
-        q: "What should I check before booking AC service in Andheri?",
-        a: "Note the AC type, the affected room, any visible leakage or unusual sound, and whether the unit is turning on. Do not open electrical panels or attempt risky repairs. Share these details with SC Cool Service to discuss next steps.",
-      },
-      {
-        q: "Can I enquire about AC cleaning or maintenance in Andheri?",
-        a: "You can contact SC Cool Service with your address, AC type and maintenance requirement. Mention any performance change and, if known, when the unit was last serviced; the team can confirm the available service options.",
-      }
-    ],
-  },
+
+"andheri": {
+  title: "AC Repair & Service in Andheri, Mumbai | SC Cool Service",
+
+  description: "Looking for AC repair in Andheri, Mumbai? Contact SC Cool Service for split and window AC repair, servicing, gas filling, installation, deep cleaning and water leakage enquiries. Call +91 9793997768.",
+
+  intro: "Looking for professional AC repair and service in Andheri, Mumbai? SC Cool Service helps customers enquire about air conditioner repair, regular servicing, installation, uninstallation and maintenance for residential and commercial spaces. Whether your split AC or window AC is not cooling properly, switching off unexpectedly, making unusual noises or leaking water, share the problem with our team to discuss the available service options. You can also enquire about AC gas filling, filter cleaning, indoor unit cleaning and installation requirements. When contacting us, mention your exact location in Andheri, AC type, brand if known and the issue you are experiencing. This information helps the team understand your requirement and check service availability for your address. For AC repair, servicing or installation enquiries in Andheri, Mumbai, contact SC Cool Service at +91 9793997768. Service coverage, charges and visit timings are confirmed according to the job requirements and appointment availability.",
+
+  focus: "AC repair, split and window AC servicing, AC installation and uninstallation, gas filling, deep cleaning, poor cooling, water leakage and maintenance enquiries for homes, offices and commercial spaces in Andheri, Mumbai. Service availability depends on the exact address and schedule.",
+
+  faqs: [
+    {
+      q: "Where can I find AC repair services in Andheri, Mumbai?",
+      a: "If you are looking for AC repair in Andheri, Mumbai, contact SC Cool Service at +91 9793997768. Share your exact location, air conditioner type and the problem you are facing. You can enquire about split AC repair, window AC repair, poor cooling, unusual noise, water leakage and other common AC problems. Service availability and appointment timings are confirmed after checking your address and requirement."
+    },
+    {
+      q: "Can I contact an AC technician near me in Andheri?",
+      a: "You can contact SC Cool Service for AC technician and repair service enquiries in Andheri. Mention your building or locality, AC brand, model and the issue you have noticed. Whether your air conditioner is not starting, switching off repeatedly or providing insufficient cooling, explain the symptoms so the team can discuss the appropriate service option and confirm whether a visit is available."
+    },
+    {
+      q: "Do you provide split AC and window AC repair in Andheri?",
+      a: "You can enquire about split AC and window AC repair services in Andheri through SC Cool Service. Common requirements include cooling problems, water leakage, unusual sounds, drainage issues and unexpected shutdowns. Share the AC type and problem details when calling +91 9793997768. The required repair and service availability will be confirmed according to the unit condition and job requirements."
+    },
+    {
+      q: "Can I book AC servicing and deep cleaning in Andheri?",
+      a: "Yes, you can contact SC Cool Service to enquire about AC servicing, filter cleaning and deep cleaning requirements in Andheri. Regular maintenance can help remove accumulated dust and dirt from accessible AC components and support proper airflow. Tell the team whether you have a split AC or window AC and when it was last serviced. The available cleaning options and charges can be discussed before booking."
+    },
+    {
+      q: "Do you provide AC gas filling in Andheri?",
+      a: "You can enquire about AC gas filling and cooling-related problems in Andheri by contacting SC Cool Service. If your air conditioner is not cooling properly, mention whether the cooling has reduced gradually or stopped suddenly. Low refrigerant can be one possible reason, but the actual cause should be checked before deciding on gas filling. Any leakage should also be identified and addressed appropriately."
+    },
+    {
+      q: "Can I get help with AC water leakage or an AC that is not cooling?",
+      a: "SC Cool Service accepts enquiries about AC water leakage, poor cooling and other common air conditioner problems in Andheri. Water dripping from the indoor unit, weak airflow, unusual sounds and repeated shutdowns can have different causes. Share the symptoms, AC type and exact service address when contacting the team. The appropriate inspection or repair requirement can then be discussed."
+    },
+    {
+      q: "Do you provide AC installation and uninstallation in Andheri?",
+      a: "You can contact SC Cool Service to enquire about new AC installation, shifting and uninstallation services in Andheri. Mention whether the unit is a split AC or window AC, the installation location and whether any existing unit needs to be removed. Installation requirements can vary depending on the site, piping, electrical arrangements and mounting conditions. Charges and appointment availability should be confirmed before the work is scheduled."
+    },
+    {
+      q: "Can I enquire about AC repair for my home, office or shop in Andheri?",
+      a: "You can contact SC Cool Service for AC repair and maintenance enquiries for residential and commercial spaces in Andheri. Share whether the AC is installed in a bedroom, living room, office, shop or another space. Also mention the number of units and the problem affecting them. The team can discuss the service requirement and confirm coverage for your exact address."
+    },
+    {
+      q: "How much does AC repair or servicing cost in Andheri?",
+      a: "AC repair and servicing charges depend on the type of air conditioner, the issue, spare parts if required and the work involved. Cleaning, gas-related work, installation and component repairs may have different charges. Contact SC Cool Service at +91 9793997768 with your AC details and problem description to enquire about applicable service charges before confirming a visit."
+    },
+    {
+      q: "How can I book an AC service in Andheri?",
+      a: "To enquire about AC repair, servicing, cleaning or installation in Andheri, call SC Cool Service at +91 9793997768. Share your name, exact address, AC type, brand if known and the service you need. The team can check location coverage, explain the available service options and confirm an appointment according to scheduling availability."
+    }
+  ],
+},
+
   "jogeshwari": {
     title: "AC Repair & Service in Jogeshwari, Mumbai",
     description: "SC Cool Service accepts enquiries for AC problems and planned servicing in Jogeshwari. Describe the unit and location so availability can be checked.",
