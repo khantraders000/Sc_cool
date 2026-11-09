@@ -510,7 +510,7 @@ export const locationContent = {
   "bandra": {
     title: "AC Repair & Service in Bandra West & East, Mumbai | SC Cool",
     description: "Best AC repair in Bandra, Mumbai. Doorstep split & window AC repair, gas filling, water leak fix & PCB repair in Bandra West, Pali Hill & BKC. Call +91 9793997768.",
-    intro: "Looking for top-rated, professional AC repair and service in Bandra? SC Cool Service caters to premier residences, creative studios, cafes, and offices across Bandra West (Pali Hill, Carter Road, Hill Road, Bandstand) and Bandra East (Kalanagar, BKC). High humidity combined with coastal air causes coil pitting, PCB electrical faults, and reduced cooling. Our factory-trained technicians arrive with genuine spare parts, nitrogen leak detectors, and high-pressure jet cleaners to fix your AC on the first visit with a 30-day warranty.",
+    intro: "Looking for top-rated, professional AC repair and service in Bandra? SC Cool Service caters to premier residences, creative studios, cafes, and offices across Bandra West (Pali Hill, Carter Road, Hill Road, Bandstand) and Bandra East (Kalanagar, BKC). High humidity combined with coastal air causes coil pitting, PCB electrical faults, and reduced cooling. Our factory-trained technicians arrive with genuine spare parts, nitrogen leak detectors, and high-pressure jet cleaners to fix your AC on the first visit with a 30-day warranty Call or WhatsApp +91 9793997768 for doorstep service in 45–60 minutes..",
     focus: "Bandra West & BKC split AC repair, inverter PCB board troubleshooting, silent foam servicing, gas leak soldering, and quick installation across Bandra.",
     faqs: [
       {
