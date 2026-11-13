@@ -152,6 +152,65 @@ function LocalServiceFAQ({ locationName, locationSlug }) {
    STATIC PROPS
 ========================================================= */
 
+/* =========================================================
+   OPTIONAL EXTRA SEO CONTENT
+   Renders nothing unless explicitly enabled and populated.
+========================================================= */
+function ExtraLocationContent({ extra }) {
+  if (extra?.enabled !== true) return null;
+
+  const groups = [
+    { key: "serviceAreas", label: "Local service areas" },
+    { key: "services", label: "More AC services" },
+  ].filter(({ key }) =>
+    extra[key]?.enabled === true &&
+    Array.isArray(extra[key]?.items) &&
+    extra[key].items.some((item) => item?.heading?.trim() && item?.content?.trim())
+  );
+
+  const contact = extra.contact?.enabled === true &&
+    extra.contact.heading?.trim() && extra.contact.content?.trim()
+      ? extra.contact
+      : null;
+
+  if (!groups.length && !contact) return null;
+
+  return (
+    <div className="bg-white">
+      {groups.map(({ key, label }) => (
+        <section key={key} className="px-5 py-16 sm:px-8 lg:px-10 lg:py-20">
+          <div className="mx-auto max-w-7xl">
+            <p className="text-xs font-bold uppercase tracking-[.2em] text-sky-600">{label}</p>
+            <div className="mt-8 grid gap-5 md:grid-cols-2">
+              {extra[key].items
+                .filter((item) => item?.heading?.trim() && item?.content?.trim())
+                .map((item, index) => (
+                  <article key={`${key}-${index}`} className="rounded-[26px] border border-slate-200 bg-[#f5f9ff] p-7 shadow-sm">
+                    <h2 className="text-2xl font-semibold tracking-tight text-slate-950">{item.heading}</h2>
+                    <p className="mt-4 leading-8 text-slate-600">{item.content}</p>
+                  </article>
+                ))}
+            </div>
+          </div>
+        </section>
+      ))}
+      {contact && (
+        <section className="bg-[#f5f9ff] px-5 py-16 sm:px-8 lg:px-10 lg:py-20">
+          <div className="mx-auto max-w-7xl rounded-[26px] border border-sky-100 bg-white p-7 shadow-sm sm:p-10">
+            <h2 className="text-2xl font-semibold text-slate-950">{contact.heading}</h2>
+            <p className="mt-4 max-w-4xl leading-8 text-slate-600">{contact.content}</p>
+            {contact.phone && (
+              <a href={`tel:${contact.phone.replace(/[^+\d]/g, "")}`} className="mt-5 inline-block font-semibold text-sky-700 hover:underline">
+                Call {contact.phone}
+              </a>
+            )}
+          </div>
+        </section>
+      )}
+    </div>
+  );
+}
+
 export async function getStaticProps({ params }) {
   const location = locations.find(
     (item) => item.slug === params.location
@@ -183,7 +242,7 @@ export default function LocationPage({ location }) {
   //   `https://sccool.in/ac-repair/${location.slug}`;
   const canonicalUrl = `https://sccool.in/ac-repair/${location.slug}`;
 
-  const localContent = locationContent[location.slug] || {
+  const baseContent = locationContent[location.slug] || {
     title: `AC Repair & Service in ${location.name}`,
     description: `Looking for AC repair in ${location.name}, Mumbai? Contact SC Cool Service for AC repair, installation, cleaning and maintenance. Call to enquire or book a visit.`,
     intro: `Need AC repair or maintenance in ${location.name}? Contact SC Cool Service to discuss your AC issue and arrange service.`,
@@ -191,6 +250,12 @@ export default function LocationPage({ location }) {
       "AC repair, installation, cleaning and routine maintenance for home and business requirements.",
     faqs: [],
   };
+
+  // Keep the original location data untouched; attach extra SEO only to Bandra.
+const localContent = {
+  ...baseContent,
+  extra: baseContent.extra ?? null,
+};
 
   const title =
    `${localContent.title} | SC Cool Service`;
@@ -1311,6 +1376,8 @@ export default function LocationPage({ location }) {
           </div>
 
         </section>
+        <ExtraLocationContent extra={localContent.extra} />
+
         <LocalServiceFAQ
           locationName={location.name}
           locationSlug={location.slug}

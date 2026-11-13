@@ -507,30 +507,143 @@ export const locationContent = {
     ]
   },
 
-  "bandra": {
-    title: "AC Repair & Service in Bandra West & East, Mumbai | SC Cool",
-    description: "Best AC repair in Bandra, Mumbai. Doorstep split & window AC repair, gas filling, water leak fix & PCB repair in Bandra West, Pali Hill & BKC. Call +91 9793997768.",
-    intro: "Looking for top-rated, professional AC repair and service in Bandra? SC Cool Service caters to premier residences, creative studios, cafes, and offices across Bandra West (Pali Hill, Carter Road, Hill Road, Bandstand) and Bandra East (Kalanagar, BKC). High humidity combined with coastal air causes coil pitting, PCB electrical faults, and reduced cooling. Our factory-trained technicians arrive with genuine spare parts, nitrogen leak detectors, and high-pressure jet cleaners to fix your AC on the first visit with a 30-day warranty Call or WhatsApp +91 9793997768 for doorstep service in 45–60 minutes..",
-    focus: "Bandra West & BKC split AC repair, inverter PCB board troubleshooting, silent foam servicing, gas leak soldering, and quick installation across Bandra.",
-    faqs: [
-      {
-        q: "How fast can an AC technician arrive in Bandra West or Pali Hill?",
-        a: "Our local mobile vans are stationed across Bandra, typically reaching your location within 45 to 60 minutes. Call +91 9793997768 for immediate priority booking."
-      },
-      {
-        q: "Why is water dripping continuously from my indoor AC unit in Bandra?",
-        a: "High humidity causes heavy condensation. If the drain tray is clogged with dust or the drain pipe has an improper gradient, water overflows into your room. We clear the entire drain line on-site."
-      },
-      {
-        q: "What are your AC gas charging charges in Bandra?",
-        a: "We perform full nitrogen pressure leak tests, silver solder any detected leaks, and refill pure R32 or R410A gas with clear, upfront pricing."
-      },
-      {
-        q: "Do you service corporate offices and boutique stores in BKC?",
-        a: "Yes, we handle multi-unit cassette, tower, and split AC repairs, including AMC servicing for commercial offices in Bandra Kurla Complex."
-      }
-    ]
+
+
+"bandra": {
+  title: "AC Repair & Service in Bandra East & West, Mumbai | SC Cool Service",
+
+  description: "Need AC repair in Bandra? SC Cool Service handles AC cooling problems, water leakage, servicing, gas filling and installation in Bandra East & West. Call 9793997768.",
+
+  intro: "An AC that stops cooling properly can make everyday life uncomfortable, especially during Mumbai's hot and humid months. Sometimes the problem is as simple as a dirty filter. Other times, it could be a refrigerant leak, a faulty capacitor, or an issue with the outdoor unit. Whatever the problem, getting it checked early can help prevent further damage. At SC Cool Service, we help customers with AC repair and servicing in Bandra East and Bandra West. From apartments around Pali Hill and Carter Road to shops near Hill Road and offices in BKC, we understand that different spaces have different cooling needs. Whether your AC has started making an unusual sound, is dripping water, or simply isn't cooling the room as it used to, you can call us at +91 9793997768 to discuss the issue and arrange a service visit.",
+
+  focus: "AC repair in Bandra West and Bandra East, regular AC servicing, split and window AC repairs, cooling problems, indoor water leakage, AC installation, deep cleaning, gas leak inspection, inverter PCB troubleshooting and commercial AC maintenance.",
+
+  extra: {
+    enabled: true,
+
+    serviceAreas: {
+      enabled: true,
+
+      heading: "AC Repair & Service Across Bandra, Mumbai",
+
+      description: "SC Cool Service provides AC repair and maintenance support across Bandra East and Bandra West. Whether you live in an apartment, run a shop or manage an office, you can contact our team for AC servicing and repair enquiries.",
+
+      items: [
+        {
+          heading: "AC Repair in Bandra West – From Pali Hill to Carter Road",
+
+          content: "Living close to the sea has its advantages, but the salty air and humidity around Bandra West can be tough on air conditioners. Outdoor units are exposed to moisture, and dust collecting on indoor filters can gradually affect airflow. We receive enquiries for AC repair in Bandra West from people dealing with weak cooling, dripping indoor units, unusual noises and ACs that keep switching off. SC Cool Service covers Pali Hill, Carter Road, Bandstand, Hill Road, Linking Road and surrounding neighbourhoods. Whether you have a split AC in your bedroom or a window AC in a small shop, our team can inspect the problem and explain what needs attention before proceeding with the repair."
+        },
+        {
+          heading: "AC Service in Bandra East and Bandra Kurla Complex",
+
+          content: "Bandra East has a mix of residential buildings, small businesses and busy commercial spaces. An AC running throughout the day in an office near BKC may need a different maintenance schedule from one used only at night in a residential apartment. We provide AC service in Bandra East for customers around Kalanagar, Bandra Kurla Complex and nearby areas. Common service requests include poor cooling, water leakage, cleaning, electrical problems and routine maintenance. If you're looking for AC repair in Bandra East, you can contact SC Cool Service to check technician availability and discuss your AC problem."
+        }
+      ]
+    },
+
+    services: {
+      enabled: true,
+
+      heading: "Our AC Repair and Maintenance Services in Bandra",
+
+      description: "Every AC problem has a different cause. Our services cover common cooling issues, routine cleaning, installation and maintenance requirements for residential and commercial air conditioners.",
+
+      items: [
+        {
+          heading: "AC Repair in Bandra – When Your AC Isn't Cooling",
+
+          content: "Is your AC running but the room still feels warm? Before assuming that the gas needs refilling, it's worth checking the filters, airflow and condition of the indoor and outdoor units. Poor cooling can happen for several reasons, and refilling refrigerant without finding the actual problem may not solve it. Our AC repair service in Mumbai includes inspection of common cooling faults, water leakage, unusual sounds, electrical issues and faulty components. If you're searching for nearby AC repair in Bandra, call SC Cool Service and tell us what's happening with your unit."
+        },
+        {
+          heading: "AC Wash Service and Regular AC Cleaning",
+
+          content: "Most people remember to clean their AC only when the cooling becomes noticeably weaker. Over time, dust can collect on the filters, blower and cooling coil, restricting airflow. In Mumbai's humid weather, regular cleaning also helps keep the unit in better working condition. Our AC wash service covers cleaning requirements based on the type and condition of the unit. Not every AC needs the same cleaning process, so the appropriate method should be selected after checking the system. If your AC hasn't been serviced for several months, you can enquire about a maintenance visit."
+        },
+        {
+          heading: "AC Installation in Bandra for Homes and Offices",
+
+          content: "Installing an AC involves more than fixing the indoor unit to a wall. The position of the unit, drainage arrangement, copper piping and outdoor unit placement can all affect how well the system works. We handle AC installation enquiries in Bandra for bedrooms, living rooms, offices and shops. If you're shifting to a new apartment or replacing an older AC, you can also ask about removal and reinstallation. AC installation charges depend on the type of unit, site conditions and additional materials needed. We recommend confirming the work and estimated cost before installation begins."
+        },
+        {
+          heading: "AC Gas Filling and Refrigerant Leak Checks",
+
+          content: "If your AC has gradually lost its cooling performance, low refrigerant could be one possible reason. However, a properly functioning sealed AC system should not need frequent gas refilling. When refrigerant is low, the cause should be investigated rather than repeatedly topping it up. Depending on the problem, servicing may involve leak inspection, repair and charging with the refrigerant specified for your AC model. Contact SC Cool Service to discuss gas filling and cooling-related repair requirements in Bandra."
+        },
+        {
+          heading: "AC AMC Services for Offices and Commercial Spaces",
+
+          content: "For a business that depends on air conditioning every day, unexpected breakdowns can be inconvenient. Regular maintenance helps identify developing problems before they interrupt normal operations. SC Cool Service accepts enquiries for AC AMC services in Bandra, including offices, shops and other commercial premises. The maintenance requirements for a single split AC will naturally differ from those of a property with several units. Contact us to discuss the number of ACs, usage patterns and the kind of maintenance support your property requires."
+        }
+      ]
+    },
+
+    contact: {
+      enabled: true,
+
+      heading: "Need an AC Technician in Bandra? Here's How to Reach Us",
+
+      content: "If your AC has stopped working, you probably don't want to spend hours searching for an AC technician number or calling different service providers. You can contact SC Cool Service directly on +91 9793997768 for AC repair and servicing enquiries in Bandra. Let us know your location, AC brand, type of unit and the problem you're facing. This helps us understand your requirement before arranging a visit. Whether you need an AC service number for routine maintenance or an AC repair number for a cooling problem, you can call or WhatsApp us to check appointment availability.",
+
+      phone: "+91 9793997768",
+
+      whatsapp: "https://wa.me/919793997768"
+    }
   },
+
+  faqs: [
+    {
+      q: "Where can I find AC repair in Bandra West?",
+      a: "SC Cool Service handles AC repair enquiries across Bandra West, including Pali Hill, Carter Road, Bandstand, Hill Road and nearby areas. Call +91 9793997768 to explain the problem and check appointment availability."
+    },
+    {
+      q: "Do you provide AC service in Bandra East?",
+      a: "Yes, we accept AC service and repair enquiries from Bandra East, including Kalanagar, BKC and surrounding locations. You can contact us for cooling problems, cleaning, leakage inspection and general servicing."
+    },
+    {
+      q: "What is the AC technician number for SC Cool Service?",
+      a: "You can reach SC Cool Service at +91 9793997768. This number is for local AC servicing, repair and installation enquiries in Bandra and other covered areas of Mumbai."
+    },
+    {
+      q: "Can you repair Voltas, LG, Samsung and Godrej ACs?",
+      a: "If you own a Voltas, LG, Samsung or Godrej AC, contact us with the model details and the problem you're experiencing. We can help you check whether independent repair support is available for that unit. SC Cool Service is not presented as an official customer-care centre for these brands."
+    },
+    {
+      q: "Why does my AC leak water inside the room?",
+      a: "Indoor water leakage is often linked to a blocked drain pipe, dirt buildup, incorrect drainage or ice forming on the cooling coil. The exact reason needs to be checked before deciding on a repair."
+    },
+    {
+      q: "How much does AC installation cost in Bandra?",
+      a: "AC installation charges depend on whether it's a split or window unit, the length of copper piping required, outdoor unit placement and any extra materials or work needed. Contact us with your AC details and installation location to discuss the expected charges."
+    },
+    {
+      q: "How often should I get my AC serviced in Mumbai?",
+      a: "It depends on how frequently you use it and the surrounding conditions. Filters may need attention more often in dusty environments, while a professional inspection and cleaning schedule can be planned according to the unit's usage and manufacturer recommendations."
+    },
+    {
+      q: "Do you provide AC wash service near Bandra?",
+      a: "Yes, you can enquire about AC wash service and cleaning in Bandra East and Bandra West. The cleaning process depends on the AC model and how much dirt has accumulated inside the unit."
+    },
+    {
+      q: "Is gas filling necessary every year?",
+      a: "No. An AC with a properly sealed refrigerant system should not require annual gas refilling as part of normal maintenance. If refrigerant is low, the system should be checked for possible leaks or other faults."
+    },
+    {
+      q: "What is the best AC location in a room?",
+      a: "The best position depends on room size, furniture placement, airflow, drainage and access for maintenance. The indoor unit should distribute cool air comfortably without being blocked by cupboards or other obstacles."
+    },
+    {
+      q: "Can I arrange AC servicing without downloading an app?",
+      a: "Yes. You don't need a separate AC service app in Mumbai to contact SC Cool Service. Simply call or WhatsApp +91 9793997768 with your location and service requirement."
+    },
+    {
+      q: "Do you offer AC maintenance for offices in BKC?",
+      a: "We accept enquiries for office AC servicing and maintenance in Bandra Kurla Complex. Share the number and type of units installed so that the maintenance requirements can be discussed."
+    }
+  ]
+},
+
+
 
   "khar": {
     title: "AC Repair & Service in Khar West & East, Mumbai | Quick Tech",
